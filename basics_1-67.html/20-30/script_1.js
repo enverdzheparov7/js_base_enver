@@ -15,3 +15,8 @@ a=13, b=5;
 alert('ЗАДАНИЕ 25.1:'),alert(a%b);
 a = 2;
 alert('ЗАДАНИЕ 26.1:'),alert(a ** 10);
+
+let fname = 'Enver', lname = 'Dzheparov';
+alert('ЗАДАНИЕ 28.1:'),alert(fname), alert(lname);
+
+
