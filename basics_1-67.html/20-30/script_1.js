@@ -29,3 +29,4 @@ alert('ЗАДАНИЕ 29.3:'),alert(str1 +' '+ str2);
 
 str='gdz_po_jizn';
 alert('ЗАДАНИЕ 30:'),alert('gdz_po_jizn'.length);
+
