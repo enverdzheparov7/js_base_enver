@@ -39,3 +39,6 @@ let num1 = 67;
 let num2 = 78;
 let num3 = 89;
 console.log(num1,num2,num3);
+alert('ЗАДАНИЕ 40:');
+console.log(123);
+console.log('123');
