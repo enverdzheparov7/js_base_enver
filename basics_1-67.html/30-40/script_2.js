@@ -31,3 +31,11 @@ alert('wer' * 2);
 alert('ЗАДАНИЕ 38:');
 alert( 10 / 0); 
 alert(-10 / 0);
+alert('ЗАДАНИЕ 39:');
+let num = 123;
+console.log(num);
+
+let num1 = 67;
+let num2 = 78;
+let num3 = 89;
+console.log(num1,num2,num3);
