@@ -26,3 +26,8 @@ alert(bc);
 //37
 alert('ЗАДАНИЕ 37:');
 alert(NaN * 1);
+alert('wer' * 2);
+
+alert('ЗАДАНИЕ 38:');
+alert( 10 / 0); 
+alert(-10 / 0);
