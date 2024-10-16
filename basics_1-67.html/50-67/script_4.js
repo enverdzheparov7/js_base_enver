@@ -88,13 +88,4 @@ alert(`ЗАДАНИЕ 60:
     8. 2 3
     9. 3 3
     `);
-    num1 = 3;
-num1++;
-num2 = num1--;
-alert(num1++);
-alert(--num2);
-
- num1 = 3;
- num2 = num1--;
-alert(num1);
-alert(num2);
+   
