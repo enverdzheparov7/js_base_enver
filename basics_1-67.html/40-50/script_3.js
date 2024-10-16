@@ -34,3 +34,12 @@ alert(Number(a)+b);
 4. 23
  `)
 
+ alert('ЗАДАНИЕ 45:');
+ a = +'2';
+ b = +'3';
+alert(a + b);
+
+alert('ЗАДАНИЕ 46.1:');
+let num = parseInt('5px');
+let num1 = parseInt('6px');
+alert(num + num1);
