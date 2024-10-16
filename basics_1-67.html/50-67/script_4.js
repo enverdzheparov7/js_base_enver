@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Не первая программа</title>
-        <script src="script_4.js"></script>
-	</head>
-	<body>
-	</body>
-</html>
+alert(`ЗАДАНИЕ 51:
+1. true 
+2. false
+3. true
+4. false
+5. false
+6. true
+7. false
+8. true
+9. true
+10. false
+11. true
+12. true
+13. false
+14. false
+15. false
+16. true
+17. false
+18. true
+19. true
+20. true
+21. false
+`)
