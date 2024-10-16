@@ -57,3 +57,15 @@ let c = 13;
 let d = String(22);
 
 alert(String(c) + d);
+
+alert('ЗАДАНИЕ 49.1:');
+
+num = 12345;
+let str = String(num);
+alert(str.length);
+
+alert('ЗАДАНИЕ 49.2:');
+
+let num2 = 2345678;
+let str2 = String(num2);
+alert(str2.length + str.length);
