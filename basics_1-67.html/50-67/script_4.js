@@ -59,4 +59,14 @@ alert(`ЗАДАНИЕ 56.2:`);
 alert(test[0]*test[1]*test[2]*test[3]*test[4]);
 alert(`ЗАДАНИЕ 56.3:`);
 alert(test[4]+test[3]+test[2]+test[1]+test[0]);
-alert(`ЗАДАНИЕ 57:`);
+alert(`ЗАДАНИЕ 57:
+    1. 3
+    2. 6
+    `);
+    alert(`ЗАДАНИЕ 58:`);
+    num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+alert(num);
