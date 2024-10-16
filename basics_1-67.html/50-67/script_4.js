@@ -29,3 +29,21 @@ alert(str[num0]), alert(str[num2]), alert(str[num4]);
 alert(`ЗАДАНИЕ 52.2:`);
 let stroka = str[num4] + str[num3] + str[num2] + str[num1] + str[num0];
 alert(stroka);
+alert(`ЗАДАНИЕ 52.3:`);
+let num = 3;
+alert(str[num])
+
+alert(`ЗАДАНИЕ 54.1:`);
+
+str = 'Werner';
+last = str.length - 1;
+alert('Ключевое слово -' + str + ' его последняя буква...' );
+alert(str[last]);
+alert(`ЗАДАНИЕ 54.2:`);
+last = str.length - 2;
+alert('Ключевое слово -' + str + ' его предпоследняя буква...' );
+alert(str[last]);
+alert(`ЗАДАНИЕ 54.3:`);
+last = str.length - 3;
+alert('Ключевое слово -' + str + ' его предпредпоследняя буква...' );
+alert(str[last]);
