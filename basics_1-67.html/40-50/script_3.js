@@ -39,7 +39,15 @@ alert(Number(a)+b);
  b = +'3';
 alert(a + b);
 
-alert('ЗАДАНИЕ 46.1:');
+alert('ЗАДАНИЕ 47.1:');
 let num = parseInt('5px');
 let num1 = parseInt('6px');
 alert(num + num1);
+
+alert('ЗАДАНИЕ 47.2:');
+num = parseFloat('5.5px');
+num1 =parseFloat('6.5px');
+alert(num + num1);
+
+alert('ЗАДАНИЕ 47.3:');
+alert(num + num1 + 'px');
