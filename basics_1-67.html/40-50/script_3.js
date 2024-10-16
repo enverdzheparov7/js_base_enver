@@ -20,5 +20,17 @@ alert(`1. 52
 11. -7
 12. 7
 13. 7
-14. 31`)
-    
+14. 31`);
+alert('ЗАДАНИЕ 44:');
+a ='10';
+let b = Number('20');
+alert(Number(a)+b);
+alert(`1.a ='10';
+let b = Number('20');
+alert(Number(a)+b);
+Ответ: 30
+2. 5
+3. 5
+4. 23
+ `)
+
