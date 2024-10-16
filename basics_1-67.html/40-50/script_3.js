@@ -51,3 +51,9 @@ alert(num + num1);
 
 alert('ЗАДАНИЕ 47.3:');
 alert(num + num1 + 'px');
+
+alert('ЗАДАНИЕ 48:');
+let c = 13;
+let d = String(22);
+
+alert(String(c) + d);
