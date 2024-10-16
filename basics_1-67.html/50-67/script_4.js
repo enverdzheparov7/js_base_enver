@@ -76,3 +76,25 @@ num = num++;
 num = num++;
 num = num--;
 alert(num);
+
+alert(`ЗАДАНИЕ 60:
+    1. 4
+    2. 3
+    3. 2
+    4. 3
+    5. 4 4
+    6. 4 3
+    7. 2 2
+    8. 2 3
+    9. 3 3
+    `);
+    num1 = 3;
+num1++;
+num2 = num1--;
+alert(num1++);
+alert(--num2);
+
+ num1 = 3;
+ num2 = num1--;
+alert(num1);
+alert(num2);
