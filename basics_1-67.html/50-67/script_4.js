@@ -21,3 +21,11 @@ alert(`ЗАДАНИЕ 51:
 20. true
 21. false
 `)
+
+alert(`ЗАДАНИЕ 52.1:`);
+let str ='abcde';
+let num0 = 0, num1 = 1, num2 = 2, num3 = 3, num4 = 4;
+alert(str[num0]), alert(str[num2]), alert(str[num4]);
+alert(`ЗАДАНИЕ 52.2:`);
+let stroka = str[num4] + str[num3] + str[num2] + str[num1] + str[num0];
+alert(stroka);
