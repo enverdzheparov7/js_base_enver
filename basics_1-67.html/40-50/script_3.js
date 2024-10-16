@@ -69,3 +69,14 @@ alert('ЗАДАНИЕ 49.2:');
 let num2 = 2345678;
 let str2 = String(num2);
 alert(str2.length + str.length);
+
+alert(`ЗАДАНИЕ 50:
+1. 4
+2. 2
+3. 0
+4. 1
+5. 1true
+6. true1
+7. true1
+`);
+
