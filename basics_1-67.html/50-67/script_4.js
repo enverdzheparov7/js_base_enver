@@ -1,5 +1,5 @@
 
-/*
+
 alert(`ЗАДАНИЕ 51:
 1. true 
 2. false
@@ -125,7 +125,7 @@ document.write('2<br>');
 document.write('3<br>');
 document.write('4<br>');
 document.write('5<br>');
-*/
+
 let num1 = 1;
 let num2 = 2;
 console.log('сумма: ' + num1 + num2);
