@@ -1,3 +1,5 @@
+
+/*
 alert(`ЗАДАНИЕ 51:
 1. true 
 2. false
@@ -98,3 +100,15 @@ alert(`ЗАДАНИЕ 62:`);
 
 let your_age = prompt('Ваш возраст?');
 alert('Ваш возраст: ' + your_age)
+*/
+alert(`ЗАДАНИЕ 63.1:`);
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
+alert(`ЗАДАНИЕ 63.2:`);
+alert(+num1 + +num2);
+let S = prompt('Введите значение стороны квадрата');
+alert(S * S);
+alert(`ЗАДАНИЕ 63.3:`);
+let one = prompt('Введите первую сторону');
+let two = prompt('Введите вторую сторону');
+alert((2* one) + (2 * two));
