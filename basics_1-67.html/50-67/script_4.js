@@ -112,3 +112,18 @@ alert(`ЗАДАНИЕ 63.3:`);
 let one = prompt('Введите первую сторону');
 let two = prompt('Введите вторую сторону');
 alert((2* one) + (2 * two));
+alert(`ЗАДАНИЕ 64.1:`);
+document.write('.txt');
+alert(`ЗАДАНИЕ 64.2:`);
+document.write('<i>.txt </i>');
+alert(`ЗАДАНИЕ 64.3:`);
+let str = 'text ';
+document.write('<i>'+ str + '</i>')
+alert(`ЗАДАНИЕ 64.4:`);
+str = `<ol>1
+2
+3
+4
+5
+</ol>`
+document.write(str);
