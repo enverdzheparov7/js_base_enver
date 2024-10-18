@@ -88,4 +88,13 @@ alert(`ЗАДАНИЕ 60:
     8. 2 3
     9. 3 3
     `);
-   
+alert(`ЗАДАНИЕ 61:`);
+    alert(0.1 * 0.2);
+    alert(0.3 - 0.1);
+    let a = 0.1 * 0.2;
+alert(+a.toFixed(2));
+alert(`ЗАДАНИЕ 62:`);
+
+
+let your_age = prompt('Ваш возраст?');
+alert('Ваш возраст: ' + your_age)
