@@ -100,7 +100,7 @@ alert(`ЗАДАНИЕ 62:`);
 
 let your_age = prompt('Ваш возраст?');
 alert('Ваш возраст: ' + your_age)
-*/
+
 alert(`ЗАДАНИЕ 63.1:`);
 let num1 = prompt('Введите первое число');
 let num2 = prompt('Введите второе число');
@@ -120,10 +120,28 @@ alert(`ЗАДАНИЕ 64.3:`);
 let str = 'text ';
 document.write('<i>'+ str + '</i>')
 alert(`ЗАДАНИЕ 64.4:`);
-str = `<ol>1
-2
-3
-4
-5
-</ol>`
-document.write(str);
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
+*/
+let num1 = 1;
+let num2 = 2;
+console.log('сумма: ' + num1 + num2);
+alert(`ЗАДАНИЕ 65:
+    1.
+    2.
+    3.
+    4.
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+    11.
+    12.
+    13.
+ 
+    `);
