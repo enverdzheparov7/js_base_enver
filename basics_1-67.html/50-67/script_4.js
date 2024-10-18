@@ -158,3 +158,31 @@ alert(`ЗАДАНИЕ 66:`)
 '9. ' + 1024 * 1024 * 1024 * 1024 + ' байт' +'\n'+
 '10. ' + 1024 * 1024 * 1024 + ' килобайт'
     );
+
+    alert(`ЗАДАНИЕ 67:`)
+   
+let r = 6; 
+let s_1 = Math.PI * r * r; 
+console.log(s_1); 
+
+let a = 4; 
+let s_2= a * a; 
+console.log(s_2); 
+
+a = 4; 
+let b = 6; 
+let s_3 = a * b; 
+console.log(s_3); 
+
+ a = 2; 
+ b = 5; 
+let p_4 = 2 * (a + b); 
+console.log(p_4); 
+
+let celsius = 25; 
+let faren = (celsius * (9 / 5)) + 32; 
+console.log(faren); 
+
+faren = 99; 
+celsius = (faren - 32) * (5 / 9); 
+console.log(celsius); 
