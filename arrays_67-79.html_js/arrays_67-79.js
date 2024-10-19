@@ -39,4 +39,17 @@ alert(arr.length);
 alert(`ЗАДАНИЕ 70.2:`);
 alert(arr[arr.length - 1]);
 
+alert(`ЗАДАНИЕ 71:`);
+arr = ['a', 'b', 'c'];
+arr[0] = '1';
+arr[1] = '2';
+arr[2] = '3';
+console.log(arr); 
+alert(arr);
 
+alert(`ЗАДАНИЕ 72:`);
+arr = [1, 2, 3];
+arr[0] += 3;
+arr[1] += 3;
+arr[2] += 3;
+alert(arr);
