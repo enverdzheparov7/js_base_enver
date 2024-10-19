@@ -86,3 +86,10 @@ console.log(obj8[50]);
 let obj9 = {x: 1, y: 2, z: 3};
 let keys = Object.keys(obj9);
 console.log(keys);
+//89
+let obj10 = {x: 1, y: 2, z: 3};
+console.log(Object.keys(obj10).length);
+//90
+let obj11 = {'x': 1, 'y': 2, 'z': 3};
+key = 'x';
+alert('ЗАДАНИЕ 90:' + '\n' + obj11[key]);
