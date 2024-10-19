@@ -93,3 +93,6 @@ console.log(Object.keys(obj10).length);
 let obj11 = {'x': 1, 'y': 2, 'z': 3};
 key = 'x';
 alert('ЗАДАНИЕ 90:' + '\n' + obj11[key]);
+alert('ЗАДАНИЕ 91:' + '\n' + `1.console.log(obj['x']); ` + '\n' + `2. console.log(obj[key]);`);
+
+alert('ЗАДАНИЕ 92:' + '\n' + `1. console.log(obj[prop]); ` + '\n' + `2. console.log(obj[prop]);`);
