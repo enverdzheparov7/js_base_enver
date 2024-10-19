@@ -37,3 +37,8 @@ alert(`ЗАДАНИЕ 96:
                 примитив: 246
                 сложные: 135
                 7. string, number, boolean, null, undefined, symbol, bigint `);
+                alert(`ЗАДАНИЕ 100: 
+                1.["a", 2, 3]
+                2.["a", 2, 3]
+                3.["b", 2, 3]
+                `);
