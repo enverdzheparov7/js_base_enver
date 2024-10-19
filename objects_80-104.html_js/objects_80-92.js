@@ -9,3 +9,20 @@ let obj = {1: 'Понедельник',
 7: 'Воскресенье'};
 
 alert(`ЗАДАНИЕ 80:` + '\n' +  obj[1] + '\n' +  obj[2]+ '\n' +  obj[3]+ '\n' +  obj[4]+ '\n' +  obj[5]+ '\n' +  obj[6]+ '\n' +  obj[7]);
+
+
+let obj1 = {
+    1: 'January', 
+    2: 'February', 
+    3: 'March', 
+    4: 'April', 
+    5: 'May', 
+    6: 'June', 
+    7: 'July', 
+    8: 'August', 
+    9: 'September', 
+    10: 'October', 
+    11: 'November', 
+    12: 'December'
+};
+console.log(obj1);
