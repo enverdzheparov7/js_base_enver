@@ -28,4 +28,12 @@ alert(`ЗАДАНИЕ 96:
     alert(`ЗАДАНИЕ 97: 
         1-4. object 
         5. string `);
+
+        alert(`ЗАДАНИЕ 98: 
+            1. true 
+            2. false `);
     
+            alert(`ЗАДАНИЕ 99: 
+                примитив: 246
+                сложные: 135
+                7. string, number, boolean, null, undefined, symbol, bigint `);
