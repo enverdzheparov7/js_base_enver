@@ -32,3 +32,35 @@ alert(`ЗАДАНИЕ 82:` + '\n' + user['name'] +' ' + user['surname']  +' ' + 
 
 let date = {'year': 2024,  'month': 10, 'day': 19};
 alert(`ЗАДАНИЕ 83:` + '\n' + date.year + '-' +date.month + '-' + date.day)
+alert(`ЗАДАНИЕ 84.1:` + '\n' + `Дан объект:
+
+let obj = {
+	'1a': 1,
+	'b2': 2,
+	'с-с': 3,
+	'd 4': 4,
+	'e5': 5
+};
+Для каких ключей данного объекта кавычки обязательны, а для каких нет?
+
+Ответ: 0,2,3`)
+
+alert(`ЗАДАНИЕ 84.2:`+ '\n'+ `вывод консоли: 1
+2
+3
+4
+5`);
+    let obj5 = {
+        '1a': 1,
+        'b2': 2,
+        'с-с': 3,
+        'd 4': 4,
+        'e5': 5
+    };
+    
+    console.log(obj5['1a']);
+    console.log(obj5.b2);
+    console.log(obj5['с-с']);
+    console.log(obj5['d 4']);
+    console.log(obj5.e5);
+
