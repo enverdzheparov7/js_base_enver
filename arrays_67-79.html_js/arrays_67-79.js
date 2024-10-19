@@ -84,10 +84,22 @@ let arr_ =[];
 arr_.push(1);
 arr_.push(2);
 arr_.push(3);
-alert(`ЗАДАНИЕ 76.1:` + '\n' + arr4_);
+alert(`ЗАДАНИЕ 76.1:` + '\n' + arr_);
 
 let arr4 = [1, 2, 3];
 
 arr4.push(4);
 arr4.push(5);
 alert(`ЗАДАНИЕ 76.2:` + '\n' + arr4);
+
+let arr5 = ['a', 'b', 'c'];
+let key = 1;
+
+alert(`ЗАДАНИЕ 77.1:` + '\n' + arr5[key]);
+
+let arr6 = [1, 2, 3, 4, 5];
+
+let key1 = 1;
+let key2 = 2;
+
+alert(`ЗАДАНИЕ 77.2:` + '\n' + Number(arr6[key1] + arr6[key2]));
