@@ -103,3 +103,12 @@ let key1 = 1;
 let key2 = 2;
 
 alert(`ЗАДАНИЕ 77.2:` + '\n' + Number(arr6[key1] + arr6[key2]));
+
+
+let arr7 = ['a', 'b', 'c', 'd', 'e'];
+
+delete arr7[2];
+delete arr7[4];
+
+alert(`ЗАДАНИЕ 78:` + '\n' + arr7 + '\n' + 'Длина массива = ' + arr7.length);
+
