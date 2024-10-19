@@ -76,3 +76,13 @@ obj7.a = 1;
 obj7.b = 2;
 obj7.c = 3;
 console.log (obj7);
+
+//87
+let obj8 = {12: 'a', 50: 'b', 2: 'c'};
+console.log(obj8[2]);
+console.log(obj8[12]);
+console.log(obj8[50]);
+//88
+let obj9 = {x: 1, y: 2, z: 3};
+let keys = Object.keys(obj9);
+console.log(keys);
