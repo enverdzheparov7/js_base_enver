@@ -54,9 +54,9 @@ alert(`ЗАДАНИЕ 96:
                     console.log(res);
 
                     alert(`ЗАДАНИЕ 103: 
-                        1.console.log(obj['x']);
-                        2.console.log(obj.[key]);
-                        3.console.log(sum);
-                        4.console.log(Object.keys(obj).length)
-                                            `);
-            
+1.console.log(obj['x']);
+2.console.log(obj.[key]);
+3.console.log(sum);
+4.console.log(Object.keys(obj).length)
+                    `);
+             
