@@ -73,3 +73,8 @@ arr1[4] = '5';
 
 alert(`ЗАДАНИЕ 74.2:` + '\n' + arr1);
 
+let arr3 = [];
+
+arr3[3] = 'a';
+arr3[8] = 'b';
+alert(`ЗАДАНИЕ 75:` + '\n' + arr3.length);
