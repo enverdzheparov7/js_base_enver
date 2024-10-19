@@ -26,3 +26,6 @@ let obj1 = {
     12: 'December'
 };
 console.log(obj1);
+
+let user = {'name': 'Иван', 'surname': 'Серлифт', 'patronymic': 'Серлифтович'};
+alert(`ЗАДАНИЕ 82:` + '\n' + user['name'] +'\n' + user['surname']  +'\n' + user['patronymic'] )
