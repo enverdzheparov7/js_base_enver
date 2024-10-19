@@ -28,4 +28,7 @@ let obj1 = {
 console.log(obj1);
 
 let user = {'name': 'Иван', 'surname': 'Серлифт', 'patronymic': 'Серлифтович'};
-alert(`ЗАДАНИЕ 82:` + '\n' + user['name'] +'\n' + user['surname']  +'\n' + user['patronymic'] )
+alert(`ЗАДАНИЕ 82:` + '\n' + user['name'] +' ' + user['surname']  +' ' + user['patronymic'] )
+
+let date = {'year': 2024,  'month': 10, 'day': 19};
+alert(`ЗАДАНИЕ 83:` + '\n' + date.year + '-' +date.month + '-' + date.day)
