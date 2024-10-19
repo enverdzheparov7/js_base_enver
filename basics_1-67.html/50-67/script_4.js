@@ -102,8 +102,8 @@ let your_age = prompt('Ваш возраст?');
 alert('Ваш возраст: ' + your_age)
 
 alert(`ЗАДАНИЕ 63.1:`);
-let num1 = prompt('Введите первое число');
-let num2 = prompt('Введите второе число');
+num1 = prompt('Введите первое число');
+num2 = prompt('Введите второе число');
 alert(`ЗАДАНИЕ 63.2:`);
 alert(+num1 + +num2);
 let S = prompt('Введите значение стороны квадрата');
@@ -117,8 +117,8 @@ document.write('.txt');
 alert(`ЗАДАНИЕ 64.2:`);
 document.write('<i>.txt </i>');
 alert(`ЗАДАНИЕ 64.3:`);
-let str = 'text ';
-document.write('<i>'+ str + '</i>')
+let str1 = 'text ';
+document.write('<i>'+ str1 + '</i>')
 alert(`ЗАДАНИЕ 64.4:`);
 document.write('1<br>');
 document.write('2<br>');
@@ -126,8 +126,8 @@ document.write('3<br>');
 document.write('4<br>');
 document.write('5<br>');
 
-let num1 = 1;
-let num2 = 2;
+num1 = 1;
+num2 = 2;
 console.log('сумма: ' + num1 + num2);
 
 alert(`ЗАДАНИЕ 65:
@@ -165,7 +165,7 @@ let r = 6;
 let s_1 = Math.PI * r * r; 
 console.log(s_1); 
 
-let a = 4; 
+a = 4; 
 let s_2= a * a; 
 console.log(s_2); 
 
