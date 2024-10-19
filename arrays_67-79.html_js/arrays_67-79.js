@@ -78,3 +78,16 @@ let arr3 = [];
 arr3[3] = 'a';
 arr3[8] = 'b';
 alert(`ЗАДАНИЕ 75:` + '\n' + arr3.length);
+
+
+let arr_ =[];
+arr_.push(1);
+arr_.push(2);
+arr_.push(3);
+alert(`ЗАДАНИЕ 76.1:` + '\n' + arr4_);
+
+let arr4 = [1, 2, 3];
+
+arr4.push(4);
+arr4.push(5);
+alert(`ЗАДАНИЕ 76.2:` + '\n' + arr4);
