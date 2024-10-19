@@ -25,3 +25,7 @@ alert('ЗАДАНИЕ 95: false ');
 alert(`ЗАДАНИЕ 96: 
     1-3. object 
     4. number `);
+    alert(`ЗАДАНИЕ 97: 
+        1-4. object 
+        5. string `);
+    
