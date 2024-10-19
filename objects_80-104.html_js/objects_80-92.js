@@ -64,3 +64,15 @@ alert(`ЗАДАНИЕ 84.2:`+ '\n'+ `вывод консоли: 1
     console.log(obj5['d 4']);
     console.log(obj5.e5);
 
+    let obj6 = {x: 1, y: 2, z: 3};
+    obj.x = 1*1;
+    obj.y = 2*2;
+    obj.z = 3*3;
+    alert(`ЗАДАНИЕ 85:`+ '\n'+ obj.x + '\n' + obj.y + '\n' + obj.z)
+
+    //86
+let obj7 ={};
+obj7.a = 1;
+obj7.b = 2;
+obj7.c = 3;
+console.log (obj7);
