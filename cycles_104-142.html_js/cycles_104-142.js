@@ -135,10 +135,10 @@ if (test7 === true) {
 }
 
 alert( `ЗАДАНИЕ 119
-	1. undefined, false, 0, null, NaN, ''
-	2. +++  3. ---  4. ---
-	5. ---  6. +++  7. ---
-	8. ---`)
+1. undefined, false, 0, null, NaN, ''
+2. +++  3. ---  4. ---
+5. ---  6. +++  7. ---
+8. ---`)
 
 	let test8 = true;
 
@@ -176,7 +176,7 @@ if (test) {
 }
 */
 
-alert(`
+alert(` 122 ЗАДАНИЕ
 +++
 ---
 ---
@@ -186,3 +186,103 @@ alert(`
 ---
 +++
 +++`)
+
+
+/*123 ЗАДАНИЕ
+№1
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+
+if (test1 && test2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№2
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+
+if (test1 && !test2 ) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№3
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+
+if (!test1 && !test2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№4
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+
+if (test1 && test2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№5
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 && test2 && test3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№6
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 || (test2 && test3)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+№7
+
+Перепишите следующий код в сокращенной форме:
+
+let test1 = true;
+let test2 = true;
+let test3 = true;
+
+if (test1 || (!test2 && !test3)) {
+	console.log('+++');
+} else {
+	console.log('---');
+}*/
+
+test = 10;
+
+if (test == 10){
+	alert('124 задание ' + 'yes');
+}
+
+//125
+if (test > 0) console.log('+++'); else console.log('---');
+if (test > 0) console.log('+++');
