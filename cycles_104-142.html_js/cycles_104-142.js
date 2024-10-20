@@ -134,8 +134,8 @@ if (test7 === true) {
 	alert('118.1 ' + '---');
 }
 
-if (test7 === false) {
-	alert('119.2 ' + '+++');
-} else {
-	alert('119.2 ' + '---');
-}
+alert( `ЗАДАНИЕ 119
+	1. undefined, false, 0, null, NaN, ''
+	2. +++  3. ---  4. ---
+	5. ---  6. +++  7. ---
+	8. ---`)
