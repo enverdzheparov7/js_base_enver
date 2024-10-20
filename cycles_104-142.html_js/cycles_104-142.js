@@ -286,3 +286,14 @@ if (test == 10){
 //125
 if (test > 0) console.log('+++'); else console.log('---');
 if (test > 0) console.log('+++');
+
+//127
+let day = 22;
+
+if (day >= 1 && day <=11) {
+	console.log('1 декада');
+} else if (day >= 11 && day <=21) {
+	console.log('2 декада');
+} else if (day >= 21 &&  day<=31 ) {
+	console.log('3 декада');
+}
