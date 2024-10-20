@@ -309,3 +309,40 @@ if (num >= 10 && num<=99) {
 } else {
 	console.log('меньше нуля');
 }
+
+//129
+let lang = 'ru';
+
+switch(lang){
+	case 'ru':
+			console.log('рус');
+		break;
+    case 'en':
+			console.log('анг');
+			break;
+	case 'de':
+			console.log('нем');
+	break;
+
+    default:
+	        console.log('язык не поддерживается');
+		        break;
+}
+
+/*131 Было
+let num = 1;
+let res;
+
+if (num >= 0) {
+	res = '1';
+} else {
+	res = '2';
+}
+
+console.log(res);
+
+Стало
+let num = 1;
+let res = num >= 0 ? res = '1': res = '2';
+console.log(res);
+*/
