@@ -297,3 +297,15 @@ if (day >= 1 && day <=11) {
 } else if (day >= 21 &&  day<=31 ) {
 	console.log('3 декада');
 }
+//128
+num = 26;
+
+if (num >= 10 && num<=99) {
+	if ((num%10+num/10) <= 9 ) {
+		console.log('сумма цифр однозначна');
+	} else {
+		console.log('сумма цифр двузначна');
+	}
+} else {
+	console.log('меньше нуля');
+}
