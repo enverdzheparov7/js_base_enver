@@ -139,3 +139,50 @@ alert( `ЗАДАНИЕ 119
 	2. +++  3. ---  4. ---
 	5. ---  6. +++  7. ---
 	8. ---`)
+
+	let test8 = true;
+
+if (test8) {
+	alert('120 ' + '+++');
+} else {
+	alert('120 ' + '---');
+}
+
+/*
+121/1
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+121/2
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+121/3
+let test = true;
+
+if (test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+*/
+
+alert(`
++++
+---
+---
+---
+---
+---
+---
++++
++++`)
