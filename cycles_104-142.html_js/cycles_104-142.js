@@ -363,3 +363,66 @@ let res = a == b;
  b = 4 ** 2;
 res = a !=b;
   console.log(res)
+
+  //133
+
+  let ok = confirm('Вам есть 18?');
+
+if (ok) {
+	console.log('Текст для взрослых *****');
+} else {
+	console.log('Доступ запрещён');
+}
+
+//134
+
+let age = 17;
+let adult;
+if (age >= 18) {
+	 adult = true;
+} else {
+	 adult = false;
+}
+
+console.log(adult);
+
+//135
+//1
+let age1 = 17;
+let adult1;
+
+if (age1 >= 18) {
+	 adult1 = true;
+} else {
+	 adult1 = false;
+}
+console.log(adult1);
+//2
+
+let age2 = 17;
+let adult2;
+
+if (age1 >= 18) {
+	 adult2 = true;
+} else {
+	 adult2 = false;
+}
+console.log(adult2);
+
+//3
+
+let age3 = 24;
+let res1;
+
+if (age3 >= 18) {
+	if (age3 <= 23) {
+		 res1 = 'от 18 до 23';
+	} else {
+		 res1 = 'больше 23';
+	}
+} else {
+	 res1 = 'меньше 18';
+}
+
+console.log(res1);
+
