@@ -464,3 +464,25 @@ if (arr.length >= 3) {
 	console.log(arr[0]+arr[1]+arr[2]+arr[3]+arr[4]);
 }
 
+//138.1
+str ='bbc'
+
+if(str[0]==='a'){
+	console.log('!!!')
+}else{
+	console.log('((((')
+}
+//2
+str='axel.x'
+if(str[str.length - 1]==='x'){
+	console.log('!!!')
+}else{
+	console.log('((((')
+}
+//138_3
+str='cba'
+if(str[0]==='a'||str[0]==='b'){
+	console.log('!!!')
+}else{
+	console.log('((((')
+}
