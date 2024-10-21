@@ -846,4 +846,4 @@ if ( first2 === second2) {
     console.log('да');
 } else {
     console.log('нет');
-}
+} 
