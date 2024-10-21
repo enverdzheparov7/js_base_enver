@@ -525,3 +525,280 @@ if(numba3 % 3 == 0){
 } else { 
 	console.log('Число нацело не делится на 3');
 }
+
+//141
+/* №1
+
+ Код должен проверить сумму чисел:
+
+ let num1 = 1;
+ let num2 = 2;
+
+ if (num1 + num2 === 3) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = 1;
+num2 = 2;
+
+if (num1 + num2 == 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №2
+
+ Код должен проверить сумму чисел:
+
+ let num1 = '1';
+ let num2 = '2';
+
+ if (num1 + num2 === 3) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = '1';
+num2 = '2';
+
+if (Number(num1) + Number(num2) === 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №3
+
+ Код должен проверить сумму чисел:
+
+ let num1 = '1';
+ let num2 = '2';
+
+ if (Number(num1 + num2) === 3) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = '1';
+num2 = '2';
+
+if (Number(num1) + Number(num2) === 3) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №4
+
+ Код должен проверить первую цифру числа:
+
+ let num = 123;
+
+ if (num[0] === 1) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = 123;
+
+if (String(num1)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+/* №5
+
+ Код должен проверить первую цифру числа:
+
+ let num = 123;
+
+ if (String(num[0]) === 1) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+
+num1 = 123;
+
+if (String(num1)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+
+/* №6
+
+ Код должен проверить первую цифру числа:
+
+ let num = 123;
+
+ if (String(num)[0] === 1) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = 123;
+
+if (String(num1)[0] === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №7
+
+ Код должен проверить первую цифру числа:
+
+ let num = 123;
+ let first = String(num)[0];
+
+ if (first === 1) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }*/
+
+num1 = 123;
+let first1 = String(num1)[0];
+
+if (first1 === '1') {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №8
+
+ Код должен проверить, что в числе ровно две цифры:
+
+ let num = 12;
+
+ if (num.length === 2) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }*/
+
+num1 = 12;
+
+if (String(num1).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №9
+
+ Код должен проверить, что в числе ровно две цифры:
+
+ let num = 12;
+ let str = Number(str);
+
+ if (str.length === 2) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = 12;
+
+if (String(num1.length) === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №10
+
+ Код должен проверить, что в числе ровно две цифры:
+
+ let num = 12;
+
+ if (String(num.length) === 2) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1= 12;
+
+if (String(num1).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №11
+
+ Код должен проверить, что в числе ровно две цифры:
+
+ let num = 12;
+
+ if (String(num).length === String(2)) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 = 12;
+
+if (String(num1).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №12
+
+ Код должен проверить, что в числе ровно две цифры:
+
+ let num = 12;
+
+ if (String(num).lenght === 2) {
+ 	console.log('+++');
+ } else {
+ 	console.log('---');
+ }
+*/
+num1 =  12;
+
+if (String(num1).length === 2) {
+  console.log('+++');
+} else {
+  console.log('---');
+}
+
+/* №13
+
+ Код должен проверить равна ли сумма первых трех цифр числа сумме вторых трех чисел:
+
+ let num = '123033';  берем в кавычки, чтобы обращаться к цифрам
+
+ let sum1 = num[0] + num[1] + num[2];
+ let sum2 = num[3] + num[4] + num[5];
+
+ if (sum1 == sum2) {
+ 	console.log('суммы равны');
+} else {
+	console.log('суммы не равны');
+}
+*/
+num1 = '123033'; // берем в кавычки, чтобы обращаться к цифрам
+
+let sum1 = Number(num1[0]) + Number(num1[1]) + Number(num1[2]);
+let sum2 = Number(num1[3]) + Number(num1[4]) + Number(num1[5]);
+
+if (sum1 === sum2) {
+  console.log('суммы равны');
+} else {
+  console.log('суммы не равны');
+}
