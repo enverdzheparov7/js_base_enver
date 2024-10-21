@@ -821,3 +821,29 @@ if(str[0]==='a'){
 }else{
 	console.log('нет')
 }
+
+let number = 423450;
+
+let first = String(number)[0] ;
+
+if(first == 1 || first == 2 || first == 3){
+	console.log('+++');
+} else { 
+	console.log('---');
+}
+
+let three = 123;
+
+let sum = three%10+Math.floor((three/100)%10)+Math.floor((three/10)%10);
+console.log(sum) 
+
+let num5 = 123123; 
+
+let first2 = Math.floor(num5 / 1000) % 10 + Math.floor(num5 / 100) % 10 + Math.floor(num5 / 10) % 10;
+let second2 = num5% 10 + Math.floor(num5 / 10) % 10 + Math.floor(num5 / 100) % 10;
+
+if ( first2 === second2) {
+    console.log('да');
+} else {
+    console.log('нет');
+}
