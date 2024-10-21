@@ -426,3 +426,41 @@ if (age3 >= 18) {
 
 console.log(res1);
 
+//4
+let age4 = 19;
+let res2;
+
+if (age4 >= 18) {
+	if (age4 <= 23) {
+		res2 = 'от 18 до 23';
+	} else {
+		res2 = 'больше 23';
+	}
+} else {
+	res2 = 'меньше 18';
+}
+
+console.log(res2);
+
+
+let min = 10;
+
+if (min >= 0 && min <= 19) {
+	alert('136 ЗАДАНИЕ: 1 треть');
+}
+
+if (min >=20 && min <= 39) {
+    alert ('136 ЗАДАНИЕ: 2 треть');
+}
+
+if (min >= 40 && min <= 59) {
+	alert('136 ЗАДАНИЕ: 3 треть');
+}
+
+//137
+let arr = [1, 2, 3, 4, 5]
+
+if (arr.length >= 3) {
+	console.log(arr[0]+arr[1]+arr[2]+arr[3]+arr[4]);
+}
+
