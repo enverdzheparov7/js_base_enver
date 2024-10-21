@@ -486,3 +486,26 @@ if(str[0]==='a'||str[0]==='b'){
 }else{
 	console.log('((((')
 }
+//139
+
+let numba = 123450;
+res = String(numba);
+res1 = res.length -1;
+
+let last = String(numba)[res1] ;
+
+if(last == 0){
+	console.log('+++');
+} else { 
+	console.log('---');
+}
+
+//139.2
+
+let numba1 = 3;
+
+if(numba1 % 2 == 0){
+	console.log('Число чётное');
+} else { 
+	console.log('Число нечётное');
+}
