@@ -346,3 +346,20 @@ let num = 1;
 let res = num >= 0 ? res = '1': res = '2';
 console.log(res);
 */
+
+//132
+
+let a = 2 * (3 - 1);
+let b = 6 - 2;
+let res = a == b;
+ console.log(res)
+
+ a = 5 * (7 - 4);
+ b = 1 + 2 + 7;
+ res = a > b;
+ console.log(res)
+
+ a = 2 ** 4;
+ b = 4 ** 2;
+res = a !=b;
+  console.log(res)
