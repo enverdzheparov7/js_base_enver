@@ -499,7 +499,7 @@ if(last == 0){
 } else { 
 	console.log('---');
 }
-
+ 
 //139.2
 
 let numba1 = 3;
