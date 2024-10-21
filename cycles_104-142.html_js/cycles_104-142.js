@@ -509,3 +509,19 @@ if(numba1 % 2 == 0){
 } else { 
 	console.log('Число нечётное');
 }
+
+let numba2 = 3;
+
+if(numba2 % 2 == 0){
+	console.log('Число чётное');
+} else { 
+	console.log('Число нечётное' + 'остаток=' + numba2%2);
+}
+
+let numba3 = 3;
+
+if(numba3 % 3 == 0){
+	console.log('Число делится на 3');
+} else { 
+	console.log('Число нацело не делится на 3');
+}
