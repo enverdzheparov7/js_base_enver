@@ -111,6 +111,34 @@ for(let key in obj){
     if(obj[key]%2!=0)
         console.log(obj[key])
 }
+//150
+let res=0;
+for(let i = 0; i<=100; ++i)
+    {
+      
+        if(i%2!=1){
+             res = res + i;
+        
+        }
+    }
+            console.log(res)
+        
+    
+  let res1 = 0
+    for(let i = 0; i<=99; ++i)
+        {
+            if(i%2!=0){
+                res1 = res1 + i;
+            }
+          
+            
+        
+        }
 
-   
-   
+        console.log(res1)
+        let res2 = 0;
+        for(i=1; i<20; i++){
+        res2 =  res2 * i;
+
+        }
+        console.log(res2)
