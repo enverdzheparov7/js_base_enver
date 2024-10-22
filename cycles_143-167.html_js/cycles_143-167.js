@@ -136,7 +136,7 @@ for(let i = 0; i<=100; ++i)
         }
 
         console.log(res1)
-        let res2 = 0;
+        let res2 = 1;
         for(i=1; i<20; i++){
         res2 =  res2 * i;
 
