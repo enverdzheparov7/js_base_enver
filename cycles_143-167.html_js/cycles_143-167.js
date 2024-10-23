@@ -142,3 +142,33 @@ for(let i = 0; i<=100; ++i)
 
         }
         console.log(res2)
+//151/1
+let arr3 = [2, 5, 9, 3, 1, 4];   
+res = 0;  
+for(let elem of arr3){
+    res+=elem;
+}
+console.log(res);
+
+let res3 = 0;
+//151/2
+for(let elem of arr3){
+    if(elem % 2 != 1 ){
+    res3+=elem;
+    }
+}
+console.log(res3);
+
+//151\3
+let res4 = 0;  
+for(let elem of arr3){
+    res4+=elem;
+}
+console.log(res4);
+
+//151/4
+let res5 = 1;  
+for(let elem of arr3){
+    res5*=elem;
+}
+console.log(res5);
