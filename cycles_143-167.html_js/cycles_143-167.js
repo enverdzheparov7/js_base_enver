@@ -202,3 +202,33 @@ console.log(str3);
 
 
 
+
+for(let i=10; i<1000; i++){
+  let str3 = String(i);
+  
+    console.log(str3[0]);  
+  
+}
+
+for(let i=10; i<1000; i++){
+  let str4 = String(i);
+  
+    console.log(str4[0]+str4[1]);  
+  
+}
+
+for(let i=10; i<1000; i++){
+  let str5 = String(i);
+  if(str5[0]==='1')
+    console.log(i);  
+  
+}
+
+for(let i=10; i<1000; i++){
+  let str6 = String(i)
+  let fir = Number(str6[0])
+  let two = Number(str6[1])
+  if(fir + two===5)
+    console.log(i);  
+  
+}
