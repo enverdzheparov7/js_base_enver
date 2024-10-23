@@ -200,7 +200,7 @@ for(let i=1; i<10; i++){
 console.log(str3);
 
 
-
+//153
 
 
 for(let i=10; i<1000; i++){
@@ -232,3 +232,42 @@ for(let i=10; i<1000; i++){
     console.log(i);  
   
 }
+
+//154
+
+
+arr7 = [1,2,3,0,9]
+for(let elem of arr7){
+  if(elem===0){
+    break;
+  }  
+  console.log(elem);
+}
+
+let res9 = 0;
+arr8 = [1,2,3,-1,9]
+for(let elem1 of arr8){
+   res9+=elem1;
+  if(elem1<0){
+    break;
+  }  
+  console.log(res9);
+}
+
+let rex = -1;
+for(let i = 0; i<arr8.length; i++){
+  if(arr8[i]===3){
+    rex = i;
+    break;
+  }  
+  
+}
+
+console.log('Позиция тройки ' + rex);
+let count = 0;
+let res10 = 0;
+for(let i = 1; res10 < 100; i++){
+   res10 += i; 
+   count++;
+}
+console.log(count)
