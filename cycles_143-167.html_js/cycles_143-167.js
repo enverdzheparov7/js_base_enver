@@ -172,3 +172,33 @@ for(let elem of arr3){
     res5*=elem;
 }
 console.log(res5);
+
+//152
+let str = '';
+
+for(let i=0; i<5; i++){
+  str+='-';
+}
+console.log(str);
+
+let str1 ='';
+for(let i=1; i<10; i++){
+  str1+=i;
+}
+console.log(str1);
+
+let str2 ='';
+for(let i=9; i>0; i--){
+  str2+=i;
+}
+console.log(str2);
+
+let str3 ='';
+for(let i=1; i<10; i++){
+  str3+='-'+ i;
+}
+console.log(str3);
+
+
+
+
