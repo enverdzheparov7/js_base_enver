@@ -442,3 +442,18 @@ for (let i = 0; i < arr23.length; i++) {
 }
 
 console.log(sum); // Вывод: 51 
+
+//165 
+
+let obj77 = {a: 10, b: 20, c: 30, d: 40, e: 50}; 
+let sum7 = 0; 
+
+for (let elem in obj) { 
+    
+    if (elem[0] === 'a' || elem[0] === 'b') { 
+        sum7 += obj77[elem]; 
+    } 
+} 
+
+console.log(sum7);
+
