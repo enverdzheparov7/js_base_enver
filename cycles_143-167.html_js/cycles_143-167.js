@@ -462,3 +462,120 @@ alert(`166 ЗАДАНИЕ:
 не работает: 2, 4, 7, 8, 11, 12, 13, 15, 16, 17, 19 , 20, 21
 `)
 
+//167
+
+/*
+
+for (i = 1; i <= 100; i++) {
+	console.log(i);
+}
+
+for (i = 100; i > 0; i--) {
+	console.log(i);
+}
+
+for (i = 1; i <= 100; i++) {
+	if(i%2===0){
+	console.log(i);
+}
+}
+//4
+let ar = []
+for (let i = 1; i <= 10; i++) {
+	ar.push('x');
+}
+console.log(ar);*/
+
+/*
+
+let ar1 = []
+for (let i = 1; i <= 10; i++) {
+	ar1.push(i);
+}
+console.log(ar1);
+
+let ar2 = [1, 23, 11, 3, 5];
+let ar3 = [];
+
+for (let i = 0; i < ar2.length; i++) {
+    if (ar2[i] > 0 && ar2[i] < 10) {
+        ar3.push(ar2[i]); 
+    }
+}
+
+console.log(ar3);
+
+let flag3 = false
+for (let i = 0; i < ar2.length; i++) {
+    if (ar2[i] ===5 ) {
+       flag3 = true;
+    }
+}
+
+console.log(flag3);
+//8
+let sum100 = 0;
+for (let i = 0; i < ar2.length; i++) {
+   
+       sum100+= ar2[i];
+    
+}
+
+console.log(sum100);
+
+
+let sum101 = 0;
+for (let i = 0; i < ar2.length; i++) {
+   
+       sum101+=(ar2[i]*ar2[i]);
+    
+}
+
+console.log(sum101);
+//10
+console.log(sum100/ar2.length);
+
+
+let num11 = 9;
+let fuct = 1;
+for (let i = 1; i <= 9; i++){
+  
+  fuct *=i;
+}
+console.log(fuct)
+
+let ar5 = []
+
+for (let i = 1; i <= 10; i++){
+  
+  ar5.push(i);
+}
+
+console.log(ar5)
+
+
+let ar6 = [10, -5, 20, -15, 30, 40, -2];
+let positiv = 0;
+
+for (let i = 0; i < ar6.length; i++) {
+  if (ar6[i] > 0) {
+    positiv += ar6[i];
+  }
+}
+
+console.log("Сумма положительных элементов:", positiv);
+
+//14
+let ar7 = [10, 20, 30, 50, 235, 3000];
+
+for (let i = 0; i < ar7.length; i++) {
+  let Digit1 = Math.floor(ar7[i] / 10); 
+  if (Digit1 === 1 || Digit1 === 2 || Digit1 === 5) {
+    console.log(ar7[i]);
+  }
+}
+//15
+for (i = ar7.length; i>0; i--) {
+  console.log(ar7[i])
+}
+*/
