@@ -392,3 +392,53 @@ for (let key in obj7) {
 	obj7[key] += 1;
 }
 console.log(obj7);
+
+//163
+
+let arr22 = ['a', 'b', 'c', 'd', 'e'];
+
+let flag = false;
+
+for (let elem of arr22) {
+	if (elem == 'c') {
+		flag = true;
+		break;
+	}
+}
+
+if (flag === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+flag = false;
+let num3 = 7;
+let count3 = 0; 
+for(i = 1; i < 10; i++ ){
+  if(num3%i==0){
+    count3++;
+  }
+  if(count3>2){
+    flag = true;
+  }
+}
+if (flag === true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+//164
+
+let arr23 = [10, 20, 30, 40, 21, 32, 51];
+let sum = 0;
+
+for (let i = 0; i < arr23.length; i++) {
+  let Digit = Math.floor(arr23[i] / 10);
+  if (Digit === 1 || Digit === 2) {
+    sum += arr23[i];
+  }
+}
+
+console.log(sum); // Вывод: 51 
