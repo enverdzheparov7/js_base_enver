@@ -377,3 +377,18 @@ for (let key in obj4) {
 }
 
 console.log(obj5);
+
+//162
+
+
+let obj6 = {x: 1, y: 2, z: 3};
+for (let key in obj6) {
+	obj6[key] *= obj6[key];
+}
+console.log(obj6);
+
+let obj7 = {x: 1, y: 2, z: 3};
+for (let key in obj7) {
+	obj7[key] += 1;
+}
+console.log(obj7);
