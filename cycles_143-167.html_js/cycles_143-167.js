@@ -286,3 +286,33 @@ for (let i = 1; i <= 3; i++) {
     document.write(String(i) + String(j) + " ");
   }
 }
+
+
+//159
+
+let arr12 = [];
+
+for (let i = 1; i <= 10; i++) {
+	arr12.push(i);
+}
+
+console.log(arr12);
+
+let arr11 = [];
+
+for (let i = 1; i <= 10; i++) {
+	arr11.push('x');
+}
+
+console.log(arr11);
+
+
+
+let arr13 = [-1, 2, 3, -4, 5, 6];
+let arr14 =[];
+for(let i = 0; i < arr13.length; i++){
+if(arr13[i] > 0){
+  arr14.push(arr13[i]);
+}
+}
+console.log(arr14);
