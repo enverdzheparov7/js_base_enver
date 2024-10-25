@@ -316,3 +316,64 @@ if(arr13[i] > 0){
 }
 }
 console.log(arr14);
+
+//160
+
+let arr15 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr15.length; i++) {
+	arr15[i] *= arr15[i];
+}
+
+console.log(arr15);
+
+let arr16 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr16.length; i++) {
+	 arr16[i]--;
+}
+
+console.log(arr16);
+
+let arr17 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr17.length; i++) {
+	 arr17[i]+=10;
+}
+
+console.log(arr17);
+
+//161
+let arr18 = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+let arr19 = [1, 2, 3, 4, 5, 6, 7];
+let obj1 = {};
+
+for (let i = 0; i <= 4; i++) {
+	obj1[arr18[i]] = arr19[i];
+}
+
+console.log(obj1);
+
+
+
+let obj2 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let obj3={};
+for (let key in obj2) {
+	if(obj2[key]% 2 ===0){
+	  obj3[key]=obj2[key];
+	}
+}
+
+console.log(obj3);
+
+let obj4 = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let obj5={};
+for (let key in obj4) {
+
+	  obj5[obj4[key]]=key;
+	  
+	//console.log(obj5[obj4[key]]);
+	//console.log(obj5);
+}
+
+console.log(obj5);
