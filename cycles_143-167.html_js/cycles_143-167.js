@@ -579,3 +579,188 @@ for (i = ar7.length; i>0; i--) {
   console.log(ar7[i])
 }
 */
+
+
+//14
+/*
+let ar8 = [0, 11, 2, 50, 4, 3000];
+
+for (let i = 0; i < ar8.length; i++) {
+  if (ar8[i]===i) {
+    console.log(ar8[i]);
+  }
+}
+
+let ar9 = [0, 11, 2, 50, 4, 3000];
+
+for (let i = 0; i < ar9.length; i++) {
+     document.write(ar9[i]+'<br>');
+ }
+//18
+ for (let i = 0; i < ar9.length; i++) {
+     document.write('<p>' +ar9[i]+'</p>');
+ }
+
+ */
+/*
+//19
+ let days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
+
+for (let i = 0; i < days.length; i++) {
+  if (i === 5 || i === 6) { // Проверка на выходные
+    document.write("<b>" + days[i] + "</b><br>");
+  } else {
+    document.write(days[i] + "<br>");
+  }
+}
+
+//20
+
+for (let i = 0; i < days.length; i++) {
+  if (days[i]==='Суббота') {
+    let day = days[i]; 
+    document.write("<i>" + day + "</i><br>");
+  } else {
+    document.write(days[i] + "<br>");
+  }
+
+
+}
+
+*/
+
+/*
+//21
+let obj17 = {
+	employee1: 100,
+	employee2: 200,
+	employee3: 300,
+	employee4: 400,
+	employee5: 500,
+	employee6: 600,
+	employee7: 700,
+};
+
+for(let key in obj17){
+  obj17[key]*=1.1;
+  console.log(Math.floor(obj17[key]));
+}
+//22
+let obj18 = {
+	employee1: 100,
+	employee2: 200,
+	employee3: 300,
+	employee4: 400,
+	employee5: 500,
+	employee6: 600,
+	employee7: 700,
+};
+for(let key in obj17){
+ if(obj18[key]>400){
+  obj18[key]*=1.1;
+  console.log(Math.floor(obj18[key]));
+}
+}
+
+*/
+/*
+//23
+let arr33 = [1, 2, 3, 4, 5];
+let arr34 = [6, 7, 8, 9, 10];
+
+let newObj = {};
+
+for (let i = 0; i < arr33.length; i++) {
+  newObj[arr33[i]] = arr34[i];
+}
+
+console.log(newObj); 
+//24
+let new_obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+sumkey = 0;
+sumobj = 0;
+
+for(let key in new_obj){
+  
+  sumkey+=+key;
+  sumobj+=new_obj[key];
+ 
+}
+
+ console.log(sumkey);
+ console.log(sumobj);
+ 
+ let del = sumobj/sumkey;
+ console.log(del);
+ */
+ 
+ //let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+
+ 
+/*
+//25
+ 
+ let obj101 = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+ let key_s = []
+ let ob_j = [];
+ for(let key in obj101){
+   key_s.push(key);
+   ob_j.push(obj101[key]);
+   
+ }
+ 
+ console.log(key_s)
+ console.log(ob_j)
+ 
+ 
+ 
+ //26
+ 
+ let obj102 = {
+	1: 125,
+	2: 225,
+	3: 128,
+	4: 356,
+	5: 145,
+	6: 281,
+	7: 452,
+};
+
+let new_arr = [];
+
+for (let key in obj102) {
+  if (obj102[key] >= 100 && obj102[key] < 200 || obj102[key] >= 200 && obj102[key] < 300) {
+    new_arr.push(obj102[key]);
+  }
+}
+
+console.log(new_arr); 
+
+*/
+
+
+/*
+//27
+let new_arr3 = ['a', 'b', 'c', 'd', 'e'];
+
+let newObj1 = {};
+
+for (let i = 0; i < new_arr3.length; i++) {
+  newObj1[i + 1] = new_arr3[i]; 
+}
+
+console.log(newObj1); 
+
+
+
+//28
+
+let newObj1 = {};
+
+for (let i = 0; i < new_arr3.length; i++) {
+  newObj1[new_arr3[i]] = i+1; 
+}
+
+console.log(newObj1); 
+
+*/
