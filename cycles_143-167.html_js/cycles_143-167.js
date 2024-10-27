@@ -751,7 +751,7 @@ for (let i = 0; i < new_arr3.length; i++) {
 
 console.log(newObj1); 
 
-
+ 
 
 //28
 
