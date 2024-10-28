@@ -385,9 +385,72 @@ console.log(`175
 	`)
 
 
+//176
 
+let obj = {
+	key1: {
+		key1: 1,
+		key2: 2,
+		key3: 3,
+	},
+	key2: {
+		key1: 4,
+		key2: 5,
+		key3: 6,
+	},
+	key3: {
+		key1: 7,
+		key2: 8,
+		key3: 9,
+	},
+}
+let sum = 0;
 
-	
+for(let key in obj){
+  let key1 = obj[key]
+for(let key2 in key1)
+{
+  sum+=key1[key2]
+}
+}
+console.log(sum)
+
+//2
+let obj1 = {
+	1: {
+		1: 'a1',
+		2: 'a2',
+		3: 'a3',
+	},
+	2: {
+		1: 'b1',
+		2: 'b2',
+		3: 'b3',
+	},
+	3: {
+		1: 'c1',
+		2: 'c2',
+		3: 'c3',
+	},
+}
+let b2 = obj1[2][2]; 
+let c1 = obj1[3][1]; 
+
+console.log(b2);
+console.log(c1); 
+//3
+
+console.log('28')
+
+//178
+let students = {
+	'group1': ['name11', 'name12', 'name13'],
+	'group2': ['name21', 'name22', 'name23'],
+	'group3': ['name31', 'name32', 'name33'],
+};
+
+console.log(students['group3'][0])
+
 	//182
 
 	let employees = [
