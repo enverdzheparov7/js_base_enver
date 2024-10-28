@@ -442,6 +442,94 @@ console.log(c1);
 
 console.log('28')
 
+
+//177
+//1
+let obj2 = {
+	1: {
+		1: 11,
+		2: 12,
+		3: 13,
+	},
+	2: {
+		1: 21,
+		2: 22,
+		3: 23,
+	},
+	3: {
+		1: 24,
+		2: 25,
+		3: 26,
+	},
+}
+
+let sum2 = 0;
+
+for(let key in obj2){
+  let key1 = obj2[key]
+for(let key2 in key1)
+{
+  sum2+=key1[key2]
+}
+}
+console.log(sum2)
+//2
+
+let obj3 = {
+	1: {
+		1: {
+			1: 111,
+			2: 112,
+			3: 113,
+		},
+		2: {
+			1: 121,
+			2: 122,
+			3: 123,
+		},
+	},
+	2: {
+		1: {
+			1: 211,
+			2: 212,
+			3: 213,
+		},
+		2: {
+			1: 221,
+			2: 222,
+			3: 223,
+		},
+	},
+	3: {
+		1: {
+			1: 311,
+			2: 312,
+			3: 313,
+		},
+		2: {
+			1: 321,
+			2: 322,
+			3: 323,
+		},
+	},
+}
+
+let sum1 = 0;
+
+for (let key in obj3) {
+  let key1 = obj3[key];
+  
+  for (let key2 in key1) {
+    let key3 = key1[key2];
+    
+    for (let key4 in key3) {
+      sum1 += key3[key4];
+    }
+  }
+}
+
+console.log(sum1);
+
 //178
 let students = {
 	'group1': ['name11', 'name12', 'name13'],
@@ -450,6 +538,8 @@ let students = {
 };
 
 console.log(students['group3'][0])
+
+
 
 	//182
 
