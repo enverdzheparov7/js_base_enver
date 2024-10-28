@@ -651,7 +651,70 @@ for (let num in data2) {
 }
 }
 
+//180 
+//1
 
+let employees4 = [
+	{
+		name: 'name1',
+		salary: 300,
+	},
+	{
+		name: 'name2',
+		salary: 400,
+	},
+	{
+		name: 'name3',
+		salary: 500,
+	},
+];
+
+for (let real of employees4) {
+	console.log(real.name + ' ' + real.salary);
+}
+//2
+let sum7 = 0;
+for (let real of employees4) {
+  sum7+=real.salary;
+	console.log(sum7);
+}
+//3
+let employees3 = [
+	{
+		name: 'name1',
+		salary: 300,
+		age: 28,
+	},
+	{
+		name: 'name2',
+		salary: 400,
+		age: 29,
+	},
+	{
+		name: 'name3',
+		salary: 500,
+		age: 30,
+	},
+	{
+		name: 'name4',
+		salary: 600,
+		age: 31,
+	},
+	{
+		name: 'name5',
+		salary: 700,
+		age: 32,
+	},
+];
+let sum8 = 0;
+for (let real of employees3) {
+  if(real.age>=30){
+  sum8+=real.salary;
+	console.log(sum8);
+  }
+}
+//181
+//.....
 	//182
 
 	let employees = [
