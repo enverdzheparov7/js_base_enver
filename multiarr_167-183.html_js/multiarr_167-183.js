@@ -126,3 +126,48 @@ for (let i = 0; i < 3; i++) {
     }
 }
 console.log(arr9);
+
+//175 1
+let ar1 = [];
+
+for (let i = 0, k = 1; i < 4; i++) {
+	ar1[i] = [];
+	
+	for (let j = 0; j < 2; j++) {
+		ar1[i].push(k++);
+	}
+}
+
+console.log(ar1);
+
+//2 
+
+let ar2 = [];
+
+for (let i = 0, k = 1; i < 4; i++) {
+	ar2[i] = [];
+	
+	for (let j = 0; j < 3; j++) {
+	  k++;
+		ar2[i].push(k++);
+	}
+}
+
+console.log(ar2);
+
+//3 
+
+let ar3 = [];
+
+for (let i = 0, k = 1; i < 2; i++) {
+	ar3[i] = [];
+	
+	for (let j = 0; j < 2; j++) {
+	  ar3[i][j] = [];
+	  for(let t = 0; t < 2; t++){
+		ar3[i][j].push(k++);
+	  }
+	}
+}
+
+console.log(ar3);
