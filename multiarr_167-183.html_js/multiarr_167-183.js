@@ -49,3 +49,40 @@ console.log(Sum1);
 
 //170
 console.log('55');
+
+
+
+
+//171_1
+let arr6 = [[1, 2, 3], [4, 5], [6]];
+for (let sub of arr6) {
+	for (let elem of sub) {
+		console.log(elem);
+	}
+}
+
+//2
+let arr7 = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+
+for (let subArr of arr7) {
+	for (let elem of subArr) {
+	  for (let elem1 of elem) {
+		console.log(elem1);
+	}
+}
+}
+//172_1
+for (let i = 0; i < arr6.length; i++) {
+	for (let j = 0; j < arr6[i].length; j++) {
+		console.log(arr6[i][j]);
+	}
+}
+
+//2 
+for (let i = 0; i < arr7.length; i++) {
+	for (let j = 0; j < arr7[i].length; j++) {
+	  	for (let k = 0; k < arr7[i].length; k++) {
+		console.log(arr7[i][j][k]);
+	  	}
+	}
+}
