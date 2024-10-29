@@ -93,4 +93,22 @@ console.log(stroka.substring(6, 16))
 
 console.log(stroka.slice(6, 16))
 
+
+
 console.log(stroka.substr(6, 10))
+
+//191 
+
+str4 = 'dghsjka.html'
+console.log(str4.endsWith('.html'))
+
+str4 = 'http://'
+console.log(str4.startsWith('http://'))
+//192
+let elem = '-'
+let str5 = '1-2-3-4-5'
+while(str5.includes(elem)){
+ str5 = str5.replace(elem,'.')
+}
+
+console.log(str5)
