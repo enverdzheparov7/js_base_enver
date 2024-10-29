@@ -17,3 +17,29 @@ for (let i = 0; i < arr.length; i++) {
 console.log(sum);
 
 console.log(Math.sqrt(sum))
+
+//185 
+let number = 379;
+
+let sqrt = Math.sqrt(number)
+let floor = Math.floor(sqrt);
+let fix = sqrt.toFixed(1)
+let fixed = sqrt.toFixed(2)
+
+console.log(floor);
+console.log(fix);
+console.log(fixed);
+
+let number1 = 587;
+
+const result = {
+    floor: Math.floor(Math.sqrt(number1)),
+    ceil: Math.ceil(Math.sqrt(number1))
+};
+
+console.log(result);
+
+//186 
+
+console.log(Math.max(4, -2, 5, 19, -130, 0, 10))
+console.log(Math.min(4, -2, 5, 19, -130, 0, 10))
