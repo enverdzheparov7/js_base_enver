@@ -80,3 +80,17 @@ let str = 'JS'
 console.log(str.toLowerCase())
 str='js'
 console.log(str.toUpperCase())
+
+//190 
+
+let stroka = 'я учу javascript'
+
+console.log(stroka.substring(2, 5))
+console.log(stroka.slice(2, 5))
+console.log(stroka.substr(2, 3))
+
+console.log(stroka.substring(6, 16))
+
+console.log(stroka.slice(6, 16))
+
+console.log(stroka.substr(6, 10))
