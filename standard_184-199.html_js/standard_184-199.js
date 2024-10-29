@@ -65,3 +65,18 @@ let numka = getRandomInt1(1, 100);
 }
 
 console.log(arr5);
+
+
+
+//188
+
+let a = - 7
+let b =  8 
+console.log(Math.abs(a+b))
+
+//189
+
+let str = 'JS'
+console.log(str.toLowerCase())
+str='js'
+console.log(str.toUpperCase())
