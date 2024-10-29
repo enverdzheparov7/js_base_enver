@@ -112,3 +112,18 @@ while(str5.includes(elem)){
 }
 
 console.log(str5)
+
+//193 
+let str7 = '1-2-3-4-5'
+
+let arr7 = str7.split('-')
+console.log(arr7)
+
+let str8 = '12345'
+arr7 = str8.split('')
+console.log(arr7)
+
+let arr8 = [1, 2, 3, 4, 5];
+
+let str9 = arr8.join('-')
+console.log(str9)
