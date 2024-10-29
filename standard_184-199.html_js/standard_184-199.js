@@ -127,3 +127,16 @@ let arr8 = [1, 2, 3, 4, 5];
 
 let str9 = arr8.join('-')
 console.log(str9)
+
+//194-196 сделаю
+
+//197 
+let arr10 = [1, 2, 3, 4, 5];
+let res = arr10.includes(3);
+
+console.log(res);
+
+//198
+
+let obj = {'a': 1, 'b': 2, 'c': 3};
+console.log(Object.keys(obj));
