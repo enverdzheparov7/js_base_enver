@@ -43,3 +43,25 @@ console.log(result);
 
 console.log(Math.max(4, -2, 5, 19, -130, 0, 10))
 console.log(Math.min(4, -2, 5, 19, -130, 0, 10))
+
+
+
+
+//187
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1, 100));
+
+//2  
+
+let arr5 = [];
+for(let i = 0; i<10; i++){
+function getRandomInt1(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+let numka = getRandomInt1(1, 100);
+      arr5.push(numka);
+}
+
+console.log(arr5);
