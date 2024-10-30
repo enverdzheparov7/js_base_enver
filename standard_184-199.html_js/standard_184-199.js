@@ -153,6 +153,36 @@ let arr13 = [1, 2, 3];
 arr13.unshift(4,5,6);
 console.log(arr13)
 
+
+//195
+//1
+let arr14 = [1, 2, 3, 4, 5];
+let sub = arr14.slice(0,3);
+console.log(sub);
+//2
+sub = arr14.slice(3,5);
+console.log(sub);
+
+//196
+
+//1 
+arr14.splice(1,2)
+
+console.log(arr14)
+//2
+let arr15 = [1, 2, 3, 4, 5];
+
+arr15.splice(3,0,'a','b','c')
+console.log(arr15)
+
+//3
+let arr16 = [1, 2, 3, 4, 5];
+
+arr16.splice(1,0,'a','b')
+arr16.splice(5,0,'c')
+arr16.splice(8,0,'e')
+console.log(arr16)
+
 //197 
 let arr10 = [1, 2, 3, 4, 5];
 let res = arr10.includes(3);
