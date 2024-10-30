@@ -219,4 +219,4 @@ for (let digit of arr111) {
 	prod *= Number(digit);
 }
 
-console.log(prod);
+console.log(prod); 
