@@ -130,6 +130,29 @@ console.log(str9)
 
 //194-196 сделаю
 
+//194
+let arr11 = [1, 2, 3];
+let res1 = arr11.shift();
+
+console.log(res1);
+//2
+res1 = arr11.pop();
+
+console.log(res1);
+
+//3 
+let arr12 = [1, 2, 3];
+arr12.push(4, 5)
+
+console.log(arr12)
+
+//4
+
+let arr13 = [1, 2, 3];
+
+arr13.unshift(4,5,6);
+console.log(arr13)
+
 //197 
 let arr10 = [1, 2, 3, 4, 5];
 let res = arr10.includes(3);
