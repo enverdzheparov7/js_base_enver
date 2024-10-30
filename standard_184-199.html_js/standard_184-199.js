@@ -193,3 +193,30 @@ console.log(res);
 
 let obj = {'a': 1, 'b': 2, 'c': 3};
 console.log(Object.keys(obj));
+
+//199
+
+
+
+//1-4
+let num10 = 12345;
+let arr110 = String(num10).split('');
+
+let sum12 = 0;
+for (let digit of arr110) {
+	sum12 += Number(digit);
+}
+
+console.log(sum12);
+
+//5 
+
+let num11 = 12345;
+let arr111 = String(num11).split('');
+
+let prod = 1;
+for (let digit of arr111) {
+	prod *= Number(digit);
+}
+
+console.log(prod);
