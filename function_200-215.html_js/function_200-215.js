@@ -17,3 +17,31 @@ function sum(){
 }
 
 sum();
+
+
+//201
+//1
+function funct(num) {
+	console.log(num ** 3);
+}
+
+funct(9)
+//2
+function positive (numba) {
+  if(numba>0){
+    console.log('+++')
+  }
+  if(numba<0){
+    console.log('---')
+  }
+}
+
+positive(-7)
+
+//202
+
+function three(num1, num2, num3) {
+	console.log(num1 + num2 + num3);
+}
+
+three(1,7,9)
