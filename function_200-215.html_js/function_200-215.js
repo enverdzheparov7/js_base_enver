@@ -45,3 +45,43 @@ function three(num1, num2, num3) {
 }
 
 three(1,7,9)
+
+
+
+//203
+
+function three1(num1, num2, num3) {
+	console.log(num1 + num2 + num3);
+}
+
+let param1 = 1;
+let param2 = 2;
+let param3 = 3;
+three1(param1,param2,param3)
+
+
+/*
+//204
+
+//1 
+
+function func(num = 5) {
+	console.log(num * num);
+}
+//Функция без параметра выведет 25, остальные - 4, 9
+
+func(2);
+func(3);
+func();
+
+//2
+function func(num1 = 0, num2 = 0) {
+	console.log(num1 + num2);
+}
+
+//Функция без параметра выведет 0, самая первая - 5, а вторая, не имеющая второго параметра - 3
+func(2, 3);
+func(3);
+func();
+
+*/
