@@ -85,3 +85,24 @@ func(3);
 func();
 
 */
+
+
+
+//205
+//1
+function v3(num) {
+	return num ** 3;
+}
+
+let res = v3(3);
+console.log(res);
+
+//2
+function v2(num) {
+	return num ** 2;
+}
+
+let rez1 = v2(3);
+let rez2 = v2(4);
+let summer = rez1 + rez2;
+console.log(summer)
