@@ -185,3 +185,38 @@ function func10(num) {
 
 console.log( func10(10) ); //100. код условия проигнорируется и будет выполнен return num ** 2;
 console.log( func10(-5) ); //выведет 5 по условию иф 
+
+
+
+//208
+//1
+
+function func11(num) {
+	let sum = 0;
+	
+	for (let i = 1; i <= num; i++) {
+		sum += i;
+		return sum;
+	}
+}
+
+console.log( func11(5) );//ретурн прерывает цикл 
+
+
+
+//209
+//1
+
+function func12(num) {
+	let sum = 0;
+	
+	for (let i = 0; i <= num; i++) {
+		num/=2;
+		
+	if(num < 10){
+	  return i + 1;
+	}
+	}
+}
+
+console.log( func12(100) );//ретурн прерывает цикл 
