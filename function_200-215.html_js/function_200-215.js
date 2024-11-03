@@ -106,3 +106,82 @@ let rez1 = v2(3);
 let rez2 = v2(4);
 let summer = rez1 + rez2;
 console.log(summer)
+ 
+
+
+//206
+//1
+
+function sqrt1(num) {
+	return Math.sqrt(num);
+}
+
+function round(num) {
+	return num.toFixed(3);
+}
+
+let res23 = round(sqrt1(2))
+
+console.log(res23)
+
+//2 
+
+function sqrt2(num) {
+	return Math.sqrt(num);
+}
+
+function sum3(num1, num2, num3) {
+	return num1 + num2 + num3;
+}
+
+let res22 = sum3(sqrt2(2),sqrt2(3),sqrt2(4))
+
+console.log(res22)
+
+//3
+function round1(num) {
+	return num.toFixed(3);
+}
+
+let res21 = round1(res22)
+
+console.log(res21)
+
+
+
+//207
+//1
+
+function func8(num) {
+	return num;
+	
+	let res = num ** 2;
+	return res;
+}
+
+console.log( func8(3) );//выведется 3, так как код после return в функции не выполняется 
+
+//2 
+
+function func9(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	} else {
+		return num ** 2;
+	}
+}
+
+console.log( func9(10) ); //выведет 100, так как выполняется return условия else 
+console.log( func9(-5) ); //выведет 5 так как выполняется ретурн условия (num <= 0)
+
+//3
+function func10(num) {
+	if (num <= 0) {
+		return Math.abs(num);
+	}
+	
+	return num ** 2;
+}
+
+console.log( func10(10) ); //100. код условия проигнорируется и будет выполнен return num ** 2;
+console.log( func10(-5) ); //выведет 5 по условию иф 
