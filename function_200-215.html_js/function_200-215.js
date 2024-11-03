@@ -219,4 +219,21 @@ function func12(num) {
 	}
 }
 
-console.log( func12(100) );//ретурн прерывает цикл 
+console.log( func12(100) );
+
+
+
+//210
+//1
+
+function func13(num1, num2) {
+	
+	if (num1 > 0 && num2 > 0) {
+		return num1 * num2;
+	} else {
+		return num1 - num2;
+	}
+	
+}
+
+console.log(func13(3, 4));
