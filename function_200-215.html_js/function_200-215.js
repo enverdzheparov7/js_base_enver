@@ -237,3 +237,68 @@ function func13(num1, num2) {
 }
 
 console.log(func13(3, 4));
+
+
+
+//211
+//1
+
+function isPositive(arr) {
+	for (let elem of arr) {
+		let sum = 0;
+		if (elem%2==0) {
+			sum++;
+		}
+		if(sum=arr.lentgh){
+		  return true
+		}
+		else{
+		  return false;
+		}
+	}
+	
+	
+}
+
+arr = [1,2,3,4,6]
+
+console.log(isPositive(arr))
+
+//211_2 
+function isFour(num) {
+	for (let i = 0; i < String(num).length - 1; i++  ) {
+		let sum = 0;
+		if (num[i]%2==0) {
+			sum++;
+		}
+		if(sum = num.lentgh){
+		  	return true;
+		}
+		else{
+		  	return false;
+		}
+	}
+	
+
+}
+
+let numpa = 1234;
+console.log(isFour(numpa))
+
+//3 
+
+function twins(arr) {
+    
+    for (let i = 1; i < arr.length; i++) {
+        
+        if (arr[i] === arr[i - 1]) {
+            return true; 
+        }
+    }
+    return false; 
+}
+
+let array = [2,2,0,9,11]
+
+console.log(twins(array))
+
