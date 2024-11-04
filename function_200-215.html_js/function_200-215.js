@@ -302,3 +302,91 @@ let array = [2,2,0,9,11]
 
 console.log(twins(array))
 
+//212
+
+//1
+
+function funk1(a, b) {
+	return a == b 
+}
+
+//2 
+
+function funk2(a, b) {
+	return a != b 
+} 
+
+//3 
+
+function funk3(a, b) {
+	return a + b >= 10 
+}
+
+//4 
+
+function funk4(num) {
+	return num > 0 
+}
+
+let a = 3
+let b = 8 
+let num = 7
+console.log(funk4(num))
+console.log(funk3(a,b))
+
+
+
+//213 
+
+//1
+
+// название функции не соответствует тому что выводит функция
+
+function sum(arr) {
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+	}
+	
+	return res ;
+}
+
+let array2 = [2,4,5,6]
+
+console.log(sum(array2))
+//2
+
+
+array3 =[6,7,8,9]
+
+   function func(arr, arr1) {
+       let res1 = 0; 
+       for (let elem of arr) {  
+           res1 += elem;
+       } 
+       let res2 = 0;
+       for (let elem1 of arr1) {
+           res2 += elem1; 
+       }
+       return res1 + res2;
+   }
+   
+
+console.log(func(array2,array3))
+//3
+
+
+//название функции не отражает то что она делает
+
+function getSum(arr) {
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+	}
+	
+	return res;
+}
+
+console.log(getSum(array2))
