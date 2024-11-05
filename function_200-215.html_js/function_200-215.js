@@ -617,7 +617,78 @@ console.log(upper(strochka))
 
 
 //6
+let text = 'Я люблю программировать';
+console.log(Upper(text));
+ 
+function Upper(str) {
+  let res = "";
+  let words = str.split(' ');
+  for (let i = 0; i < words.length; i++) {
+    res += words[i][0].toUpperCase() + words[i].slice(1) + " ";
+  }
+  return res.trim();
+}
 
+
+
+//7
+function arrayis(arr){
+	let arr1 = [];
+for(let i = 1; i < 10; i++)
+{
+	arr1.push(i)
+}
+return arr1;
+}
+
+let arr5 = [];
+console.log(arrayis(arr5))
+
+//8
+function sum123(num){
+	let arr=[]
+	let sum = 0
+	for(let i = 0; i<num.lentgh-1; i++){
+	 arr.push(num.split(''))
+		sum+=arr[i]	
+	}
+	return sum;
+}
+let nump = 123
+console.log(nump)
+
+//9
+
+function year1(year){
+	if(year>365){
+		return true
+	}else{
+		return false
+	}
+}
+let year = 365;//невисокосный
+console.log(year1(year))
+
+//10
+
+function days(secund){
+	return Math.floor(secund/86400)
+}
+console.log(days(88888))
+
+//11
+function Random_array(arr){
+	let arr1 = [];
+for(let i = 1; i < 10; i++)
+{
+	arr1.push(i)
+}
+return  arr1[Math.floor(Math.random() * arr1.length)];
+;
+}
+
+let arr6 = [];
+console.log(Random_array(arr6))
 
 
 //12 
