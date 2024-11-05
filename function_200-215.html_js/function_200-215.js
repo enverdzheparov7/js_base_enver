@@ -260,9 +260,9 @@ function isPositive(arr) {
 	
 }
 
-arr = [1,2,3,4,6]
+let arr4 = [1,2,3,4,6]
 
-console.log(isPositive(arr))
+console.log(isPositive(arr4))
 
 //211_2 
 function isFour(num) {
@@ -341,8 +341,10 @@ console.log(funk3(a,b))
 //1
 
 // название функции не соответствует тому что выводит функция
+let array2 = [2,4,5,6]
+console.log(sum1(array2))
 
-function sum(arr) {
+function sum1(arr) {
 	let res = 0;
 	
 	for (let elem of arr) {
@@ -351,16 +353,15 @@ function sum(arr) {
 	
 	return res ;
 }
+ 
 
-let array2 = [2,4,5,6]
 
-console.log(sum(array2))
 //2
 
 
-array3 =[6,7,8,9]
+let array3 =[6,7,8,9]
 
-   function func(arr, arr1) {
+   function func300(arr, arr1) {
        let res1 = 0; 
        for (let elem of arr) {  
            res1 += elem;
@@ -373,7 +374,7 @@ array3 =[6,7,8,9]
    }
    
 
-console.log(func(array2,array3))
+console.log(func300(array2,array3))
 //3
 
 
@@ -389,4 +390,254 @@ function getSum(arr) {
 	return res;
 }
 
-console.log(getSum(array2))
+console.log(getSum(array2)) 
+
+
+
+//214
+
+//1
+
+function func21(num) {
+	return num;
+}
+function func22(num1) {
+	return num1;
+}
+
+console.log( func21(3) + func22(5) );
+
+//2
+
+function sumka(arr) { 
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+	}
+	return res;
+}
+
+console.log(sumka([1, 2, 3, 4, 5]));
+
+//3 
+
+let arr = [1, 2, 3, 4, 5];
+
+function func23(arr) {
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+	}
+	
+	return res;
+} 
+
+console.log(func23([1, 2, 3, 4, 5])) 
+
+
+
+//4 
+
+function func100() {
+	return 3;
+}
+function func200() {
+	return 5;
+}
+
+console.log( func100() + func200() );
+
+
+//5 
+
+
+function sumka2(arr) {
+	let sum = 0;
+	
+	for (let elem of arr) {
+		sum += elem;
+	}
+	
+	return sum;
+}
+
+console.log(sumka2([1, 2, 3, 4, 5]))
+
+//6 
+
+function sumka3(arr) {
+	let sum = 0;
+	
+	for (let elem of arr) {
+		sum += elem;
+	}
+	return sum;
+}
+
+let resik = sumka3([1, 2, 3, 4, 5]);
+console.log(resik);
+
+//7
+function add(num) {
+	if (num <= 9) {
+		return '0' + num;
+	}else{
+		return num;
+	}
+}
+let numpi = 13;
+console.log(add(numpi))
+
+//8
+
+let arra = [1, 2, 3, 4, 5];
+let sumk = sumki(arra);
+console.log(sumk);
+
+function sumki(arr) {
+	let res = 0;
+	
+	for (let elem of arr) {
+		res += elem;
+	}
+	
+	return res;
+}
+//9
+
+
+ 
+
+function getDigitsSum(num) { 
+    let arr = num.split(''); 
+    let sum = 0; 
+  
+    for (let elem of arr) { 
+        sum += Number(elem); 
+    } 
+  
+    return sum; 
+}
+let number1 = '12345'; 
+console.log(getDigitsSum(number1));
+//10
+
+
+function isPrime(num) {
+	let sum  = 0;
+	for (let i = 2; i < num; i++) {
+		
+        if (num % i == 0) {
+			sum++;
+        }
+	} 
+		if(sum>2){
+            return true;
+		} else {
+			return false;
+		}
+	
+}
+
+let number = 13
+console.log(isPrime(number)); 
+
+
+//215
+
+//1 
+
+function sumka4(arr) {
+	let sum = 0;
+	
+	for (let elem of arr) {
+		sum += elem;
+	}
+	return sum;
+}
+
+let resik1 = sumka4([1, 2, 3, 4, 5]);
+console.log(resik1);
+
+//2 
+
+function deliteli(num){
+	let arr = []
+	for(i = 2; i < num; i++){
+		if(num%i==0){
+          arr.push(i);
+	    }
+}
+	return arr;
+}
+
+let number2 = 12;
+console.log(deliteli(number2)) 
+
+//3 
+
+function array5(str) {
+	let arr = [];
+	
+	for (let elem of str.split('')) {
+		arr.push(elem)
+	}
+	return arr;
+}
+
+let resik2 = array5('12345');
+console.log(resik2); 
+
+//4 
+function naoborot(str){
+	let arr = [];
+	for(let i = str.length - 1; i>=0; i-- ){
+	
+	arr.push(str[i])
+  }
+  return arr.join('');
+} 
+
+let resik3 = naoborot('12345');
+console.log(resik3); 
+
+//5 
+
+function upper(str){
+	
+let res = str.slice(0, 1).toUpperCase() + str.slice(1);
+
+console.log(res);
+}
+
+let strochka = 'abcde';
+console.log(upper(strochka))
+
+
+//6
+
+
+
+//12 
+
+
+function isPrime1(num) {
+	let sum  = 0;
+	for (let i = 2; i < num; i++) {
+		
+        if (num % i == 0) {
+			sum++;
+        }
+	} 
+		if(sum>2){
+            return true;
+		} else {
+			return false;
+		}
+	
+}
+
+let number3 = 13
+console.log(isPrime1(number3)); 
