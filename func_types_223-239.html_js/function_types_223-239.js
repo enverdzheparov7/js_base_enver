@@ -26,4 +26,31 @@ function func3(){
 //2
 let func4 = func3;
 //3
-console.log(func3()+func4())
+console.log(func3()+func4()) 
+
+//226
+
+let func1 = function() {
+	return 1
+};
+
+let funci2 = func1
+
+let func2 = function() {
+	return 2
+};
+
+let funci3 = func2  
+
+alert(funci3()+funci2())
+
+//228 
+//1 Function Declaration (объявление функции)
+function func() {
+	console.log('!');
+} 
+
+//2 Function Expression (функциональное выражение)
+let func = function() {
+	console.log('!');
+}
