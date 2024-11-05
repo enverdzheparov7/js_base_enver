@@ -77,7 +77,8 @@ func7();
 
 console.log(num5);//1 
 
-//№1
+//219
+////1
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -89,7 +90,7 @@ function func8() {
 func8();
 
 console.log(num6);//2
-//№2
+////2
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -100,7 +101,7 @@ function func9() {
 }
 
 console.log(num7);//1
-//№3
+////3
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -112,7 +113,7 @@ function func10() {
 func10();
 
 console.log(num8);//1
-//№4
+////4
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -124,7 +125,7 @@ function func11() {
 
 console.log(num9);
 func11();
-//№5
+////5
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -136,7 +137,7 @@ function func12() {
 
 console.log(num10);//1
 func12();
-//№6
+////6
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -150,7 +151,7 @@ func13();
 func13();
 func13();
 console.log(num11);//4
-//№7
+////7
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -161,7 +162,7 @@ function func14() {
 let num12 = 1;
 console.log(num12);
 func14();//1
-//№8
+////8
 
 //Определите, не запуская код, что выведется в консоль:
 
@@ -172,3 +173,113 @@ function func15() {
 let num13 = 1;
 func15();
 console.log(num13);//2
+
+
+
+//220 
+
+//1
+
+//Определите, не запуская код, что выведется в консоль:
+
+function funci(localNum) {
+	console.log(localNum);//1
+}
+
+funci(1);
+//2
+
+//Определите, не запуская код, что выведется в консоль:
+
+function funci2(localNum) {
+	console.log(localNum);//1
+}
+
+let numper1 = 1;
+funci2(numper1);
+//3
+
+//Определите, не запуская код, что выведется в консоль:
+
+function funci3(localNum) {
+	console.log(localNum);//1
+}
+
+let numper2 = 1;
+funci3(numper2);
+numper2 = 2;
+//4
+
+//Определите, не запуская код, что выведется в консоль:
+
+let numper3 = 1;
+
+function funci4(localNum) {
+	console.log(localNum);//2
+}
+
+numper3 = 2;
+funci4(numper3);
+//5
+//Определите, не запуская код, что выведется в консоль:
+
+
+function funci5(localNum) {
+	localNum = 2;
+}
+
+let numper4 = 1;
+funci5(numper4);
+console.log(numper4);//1
+//6
+
+//Определите, не запуская код, что выведется в консоль:
+
+function funci6(localNum) {
+	numper5 = 2;
+}
+
+let numper5 = 1;
+funci6(numper5);
+console.log(numper5);//2
+//7
+
+//Определите, не запуская код, что выведется в консоль:
+
+function funci7(localNum) {
+	let numper6 = 2;
+}
+
+let numper6 = 1;
+funci7(numper6);
+console.log(numper6);//1
+
+
+//221 
+//1
+function func221(num221) {
+	num221 = 2;
+}
+
+let num221 = 1;
+func221(num221);
+console.log(num221);//1
+
+//2 
+
+function func221_2() {
+	num221_2 = 2;
+}
+
+let num221_2 = 1;
+func221_2();
+console.log(num221_2); //2
+
+//3 
+function func221_3() {
+	let num221_3 = 2;
+}
+
+let num221_3 = 1;
+func221_3();
+console.log(num221_3);//1
