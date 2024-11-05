@@ -54,3 +54,121 @@ function func5() {
 
 console.log(func5()); 
 
+//218
+
+//1
+let num4 = 1;
+
+function func6() {
+	num4 = 2;
+}
+func6();
+
+console.log(num4);//2
+
+//2
+
+let num5 = 1;
+
+function func7() {
+	let num5 = 2;
+}
+func7();
+
+console.log(num5);//1 
+
+//№1
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num6 = 1;
+
+function func8() {
+	num6 = 2;
+}
+func8();
+
+console.log(num6);//2
+//№2
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num7 = 1;
+
+function func9() {
+	num7 = 2;
+}
+
+console.log(num7);//1
+//№3
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num8 = 1;
+
+function func10() {
+	let num8 = 2;
+}
+func10();
+
+console.log(num8);//1
+//№4
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num9 = 1;
+
+function func11() {
+	let num = 2;//1
+}
+
+console.log(num9);
+func11();
+//№5
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num10 = 1;
+
+function func12() {
+	num10 = 2;
+}
+
+console.log(num10);//1
+func12();
+//№6
+
+//Определите, не запуская код, что выведется в консоль:
+
+let num11 = 1;
+
+function func13() {
+	num11++;
+}
+
+func13();
+func13();
+func13();
+console.log(num11);//4
+//№7
+
+//Определите, не запуская код, что выведется в консоль:
+
+function func14() {
+	num12 = 2;
+}
+
+let num12 = 1;
+console.log(num12);
+func14();//1
+//№8
+
+//Определите, не запуская код, что выведется в консоль:
+
+function func15() {
+	num13 = 2;
+}
+
+let num13 = 1;
+func15();
+console.log(num13);//2
