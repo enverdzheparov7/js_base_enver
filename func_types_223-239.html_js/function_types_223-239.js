@@ -173,4 +173,91 @@ console.log(
 func234_4();// выведет '!', значит Function Declaration
 function func234_4() {
 	console.log('!');
+} 
+
+//235 
+
+//1
+
+
+//Function Expression
+-
+function func235_1() {
+	console.log('!');
 }
+//2
+
+
+//Function Declaration
+-1;
+function func235_2() {
+	console.log('!');
+}
+//3
+
+
+//Function Declaration
+-1
+function func235_3() {
+	console.log('!');
+}
+//4
+
+
+//Function Declaration
+1
+function func235_4() {
+	console.log('!');
+}
+//5
+
+
+//Function Expression
+-1-
+function func235_5() {
+	console.log('!');
+} 
+
+//236
+
+//1
+
+// это Function Declaration
+function func() {
+	console.log('!');
+}
++1;
+
+//2
+
+// это Function Declaration
+function func() {
+	console.log('!');
+} + 1;
+
+//3
+// это Function Expression
++function func() {
+	console.log('!');
+} + 1;
+
+//4
+
++// это Function Expression
+function func() {
+	console.log('!');
+} + 1;
+
+//5
+
++ 1 // это Function Declaration
+function func() {
+	console.log('!');
+} + 1;
+
+//6
+
+// это Function Declaration
+function func() {
+	console.log('!');
+} + console.log('!');
