@@ -343,3 +343,14 @@ function test249_4(num) {
 test249_4(1);
 
 //с пункта 1 по 4 задания 249 будут выведены единицы 
+//250
+
+function func250() {
+	return function() {
+		return 1;
+	};
+}
+function func250_2() {
+		return 2;
+}
+console.log( func250()() + func250_2() ); 
