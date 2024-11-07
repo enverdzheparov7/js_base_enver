@@ -108,4 +108,93 @@ let res = fun(9,3);
 
 console.log(res);
 
-//246
+//246 
+
+//1
+
+//Определите, не запуская код, что выведется в консоль:
+
+function test246() {
+	let num = 1;
+	
+	function func() {
+		console.log(num);//1
+	}
+	
+	func();
+}
+
+test246();
+//2
+
+//Определите, не запуская код, что выведется в консоль:
+
+function test246_2() {
+	let num = 1;
+	
+	function func() {
+		console.log(num);
+	}
+}
+
+test246_2(); //ничего не выведет
+//3
+
+//Определите, не запуская код, что выведется в консоль:
+
+function test246_3() {
+	let num = 1;
+	
+	function func() {
+		console.log(num);
+	}
+	
+	func();//1
+}
+
+//4
+
+//Определите, не запуская код, что выведется в консоль:
+
+function test246_4() {
+	let num;
+	
+	function func() {
+		console.log(num); 
+	}
+	
+	num = 1
+	func();//выведет 1
+	
+	num = 2
+	func();//2
+}
+
+test246_4();
+
+//247 
+
+//1 
+
+function test247(num1, num2) {
+	function func() {
+		console.log(num1 + num2);
+	}
+	
+	func();//3
+}
+
+test247(1, 2);
+
+//2
+
+function test247_2(num1, num2) {
+	function func() {
+		console.log(num1 + num2);
+	}
+	
+	num1 = 2;
+	func();//4
+}
+
+test247_2(1, 2);
