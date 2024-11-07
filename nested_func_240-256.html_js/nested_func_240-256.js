@@ -452,3 +452,21 @@ let results3 = each([1, 2, 3, 4, 5], function cube(num) {
 });
   
 console.log(results3); 
+
+//256
+
+function filter(arr, callback) {
+	let res = [];
+
+	for (let elem of arr) {
+		if ( callback(elem) === true ) {
+			res.push(elem);
+		}
+	}
+	
+	return res;
+}
+
+let result256 = filter([1, 2, 3, 4, 5], elem => elem > 2);
+
+console.log(result256)
