@@ -296,3 +296,40 @@ for (let key in obj) {
 	console.log(obj[key]()); 
 }  
 
+//239
+const obj1 = {
+
+    sum: function(arr) {
+        let sum = 0;
+		for (let elem of arr){
+			 sum += elem;
+			 
+		}; 
+		return sum;
+    },
+
+    sumOfSquares: function(arr) {
+        let sum = 0;
+		for (let elem of arr){
+			 sum += Math.pow(elem,2);
+			 
+		}
+		return sum;
+    },
+
+    sumOfCubes: function(arr) {
+        let sum = 0;
+		for (let elem of arr){
+			 sum += Math.pow(elem,3);
+			 
+		}
+		return sum;
+    }
+};
+
+
+let numbers = [1, 2, 3, 4];
+
+console.log('Сумма:', obj1.sum(numbers)); 
+console.log('Сумма квадратов:', obj1.sumOfSquares(numbers)); 
+console.log('Сумма кубов:', obj1.sumOfCubes(numbers)); 
