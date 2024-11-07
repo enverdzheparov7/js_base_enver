@@ -56,3 +56,35 @@ function func(arr) {
 console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
 
 //277
+
+function func2(obj) {
+	let sum = 0;
+	
+	for (let key in obj) {
+		if (typeof obj[j=key] == 'object') {
+			sum += func2(obj[key]);
+		} else {
+			sum += obj[key];
+		}
+	}
+	
+	return sum;
+}
+
+console.log(func2({a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}})) 
+
+//2
+function func3(arr) {
+	let str = '';
+	
+	for (let elem of arr) {
+		if (typeof elem == 'object') {
+			str += func3(elem);
+		} else {
+			str += elem
+		}
+	}
+	
+	return str;
+}
+console.log(func3(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]])) 
