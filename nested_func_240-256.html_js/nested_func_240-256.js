@@ -354,3 +354,51 @@ function func250_2() {
 		return 2;
 }
 console.log( func250()() + func250_2() ); 
+
+//251 
+
+function func251() {
+	return function() {
+		return function() {
+			return function() {
+				return function() {
+			            return '!';
+			    }
+		    };
+	    }
+    };
+}
+
+console.log( func251()()()()() ); 
+
+
+//252 
+
+function func252(num1) {
+	return function(num2) { 
+		return function(num3) {
+		return num1 + num2 + num3;
+		}
+	};
+}
+
+console.log( func252(2)(3)(4) ); 
+
+function func252_2(num) {
+	let arr = [];
+	arr.push(num)
+	return function(num2) { 
+		arr.push(num2)
+		return function(num3) {
+			arr.push(num3)
+			return function(num4) {
+				arr.push(num4)
+				return function(num5) {
+					arr.push(num5)
+					return arr;
+				}
+			}
+		}
+	};
+}
+console.log( func252_2(2)(3)(4)(5)() );
