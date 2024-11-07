@@ -99,3 +99,48 @@ console.log(result8());
 	};
 }
 })(1)(2)(3);
+
+
+//271 
+
+//1 
+let str = 'str';
+
+(function() {
+	console.log(1);//1
+})();
+
+//2
+/*let str1 = 'str'
+
+(function() {
+	console.log(1);
+})();//ошибка*/
+
+//272
+
+let func272 = (function() {
+	let num = 1;
+	
+	return function() {
+		if(num<=5){
+        console.log(num);
+        }
+		num++;
+        if(num>5){
+            num = 0;
+        }
+	}
+})();
+
+func272(); 
+func272(); 
+func272(); 
+func272(); 
+func272();
+func272(); 
+func272(); 
+func272();
+func272(); 
+func272(); 
+func272();
