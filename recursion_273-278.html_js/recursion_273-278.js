@@ -88,3 +88,19 @@ function func3(arr) {
 	return str;
 }
 console.log(func3(['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]])) 
+
+
+//278 
+
+function func4(arr) {
+	let sum = [];	
+	for (let elem of arr) {
+		if (typeof elem == 'object') {
+			sum += func4(elem);
+		} else {
+			sum += elem ** 2 + ' ';
+		}
+	}
+	return sum;
+}
+console.log(func4([1, [2, 7, 8], [3, 4], [5, [6, 7]]])); 
