@@ -25,3 +25,34 @@ let arr1 = [1, 2, 3, 4, 5];
 console.log(getSum(arr1));
 
 
+//276
+//1
+function PrimitiveValues(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'object' && obj[key] !== null) {
+            PrimitiveValues(obj[key]); 
+        } else {
+            console.log(obj[key]); // Выводим примитивное значение
+        }
+    }
+}
+
+let obj = {a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}};
+PrimitiveValues(obj);
+//2
+function func(arr) {
+	let array = []
+	for (let elem of arr) {
+		if (Array.isArray(elem)) {
+			array = array.concat(func(elem)); 
+		} else {
+			array.push(elem)
+			
+		}
+	}
+	return array
+}
+
+console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+
+//277
