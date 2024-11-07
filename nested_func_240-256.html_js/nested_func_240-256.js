@@ -77,4 +77,35 @@ function cube(num) {
 });
 
 
-console.log(result);
+console.log(result); 
+
+//244
+
+function test7(arr, func) {
+	for (let i = 0; i < arr.length; i++) {
+		arr[i] = func(arr[i]);
+	}
+	
+	return arr;
+}
+
+let rezik = test7 ([2,3,4], function kubik(num){return num * num * num})
+console.log(rezik) 
+
+//245
+
+function fun(num1,num2){
+    function square1(num1){
+        return num1 * num1;
+    }
+    function cube1(num2){
+        return num2 * num2 * num2;
+    }
+    return square1(num1)+cube1(num2)
+}
+
+let res = fun(9,3);
+
+console.log(res);
+
+//246
