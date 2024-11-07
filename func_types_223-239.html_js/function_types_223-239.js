@@ -51,6 +51,32 @@ function func() {
 } 
 
 //2 Function Expression (функциональное выражение)
-let func = function() {
+let func5 = function() {
 	console.log('!');
 }
+ 
+//229
+//1
+// Обращаемся к функции до ее объявления:
+func6(); //выведет '!'
+
+function func6() {
+	console.log('!');
+}
+
+//2
+//func7(); //ошибка, такой функции еще нет!
+
+let func7 = function() {
+	console.log('!');
+}; 
+
+//230
+
+let func11 = function() {console.log('!')};
+let func22 = function() {
+	console.log('!')
+};
+function func33() {
+	console.log('!')
+};
