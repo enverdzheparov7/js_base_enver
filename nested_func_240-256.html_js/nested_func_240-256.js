@@ -402,3 +402,53 @@ function func252_2(num) {
 	};
 }
 console.log( func252_2(2)(3)(4)(5)() );
+
+//253 
+//1
+function each(arr, callback) {
+	let result = [];
+	
+	for (let elem of arr) {
+		result.push( callback(elem) ); // вызываем функцию-коллбэк
+	}
+	
+	return result;
+}
+
+let results = each([1, 2, 3, 4, 5], function(num) {
+	return num * 2;
+});
+
+console.log(results);
+
+//2
+function each1(arr, callback) {  
+    let result = [];  
+   
+    for (let elem of arr) {  
+        result.push(callback(elem)); 
+    }  
+   
+    return result;  
+}  
+
+let arr4 = ["hello", "world", "javascript", "css"];  
+
+let results1 = each1(arr4, function(str) {  
+    return str.split('').reverse().join(''); 
+});  
+console.log(results1); 
+
+let arr = ["hello", "world", "javascript", "css"];  
+
+let results2 = each(arr, function(str) {  
+    return str.slice(0, 1).toUpperCase() + str.slice(1);
+});  
+  
+console.log(results2); 
+
+let results3 = each([1, 2, 3, 4, 5], function cube(num) {
+	return num ** 3;
+});
+  
+console.log(results3); 
