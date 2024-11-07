@@ -112,7 +112,7 @@ console.log(res);
 
 //1
 
-//Определите, не запуская код, что выведется в консоль:
+//
 
 function test246() {
 	let num = 1;
@@ -127,7 +127,7 @@ function test246() {
 test246();
 //2
 
-//Определите, не запуская код, что выведется в консоль:
+//
 
 function test246_2() {
 	let num = 1;
@@ -140,7 +140,7 @@ function test246_2() {
 test246_2(); //ничего не выведет
 //3
 
-//Определите, не запуская код, что выведется в консоль:
+//
 
 function test246_3() {
 	let num = 1;
@@ -154,7 +154,7 @@ function test246_3() {
 
 //4
 
-//Определите, не запуская код, что выведется в консоль:
+//
 
 function test246_4() {
 	let num;
@@ -198,3 +198,148 @@ function test247_2(num1, num2) {
 }
 
 test247_2(1, 2);
+
+
+//248
+
+//1
+
+
+
+function test248_1(num) {
+	function func(localNum) {
+		console.log(localNum);
+	}
+	
+	func(num);//1
+}
+
+test248_1(1);
+//2
+
+
+
+function test248_2(num) {
+	function func(localNum) {
+		console.log(localNum);
+	}
+	
+	func(num + 1);//2
+}
+
+test248_2(1);
+//3
+
+
+
+function test248_3(num) {
+	function func(localNum) {
+		console.log(num);
+	}
+	
+	func(num + 1);//1
+}
+
+test248_3(1);
+//4
+
+
+
+function test248_4(num) {
+	function func(localNum) {
+		localNum = 2;
+	}
+	
+	func(num);
+	console.log(num);//1
+}
+
+test248_4(1);
+//5
+
+
+/*
+function test248_5(num) {
+	function func(localNum) {
+		localNum = 2;
+	}
+	
+	func(num);
+	console.log(localNum);
+}
+
+test248_5(1);*/ //ошибка
+//6
+
+
+
+function test248_6(num) {
+	function func(localNum) {
+		num = 2;
+	}
+	
+	func(num);
+	console.log(num);//2
+}
+
+test248_6(1); 
+
+//249 
+
+//1//
+
+//
+
+function test249(num) {
+	function func(num) {
+		console.log(num);
+	}
+	
+	func(num);
+}
+
+test249(1);
+//2//
+
+//
+
+function test249_2(num) {
+	function func(num) {
+		num = 2;
+	}
+	
+	func(num);
+	console.log(num);
+}
+
+test249_2(1);
+//3//
+
+//
+
+function test249_3(num) {
+	function func(num) {
+		console.log(num);
+	}
+	
+	num = 2;
+	func(num);
+}
+
+test249_3(1);
+//4//
+
+//
+
+function test249_4(num) {
+	function func(num) {
+		console.log(num);
+	}
+	
+	func(num);
+	num = 2;
+}
+
+test249_4(1);
+
+//с пункта 1 по 4 задания 249 будут выведены единицы 
