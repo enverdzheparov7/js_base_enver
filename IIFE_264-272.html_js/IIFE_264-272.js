@@ -67,3 +67,35 @@ let result8 = (function() {
 });
 
 console.log(result8());
+
+//268 
+
+(function(num1, num2) {
+	console.log(num1 + num2);
+})(1, 2);//3 
+
+
+//269 
+//1
+(function() {
+    return function() {
+	return function() {
+		console.log('!');
+	};
+}
+})()()();
+
+//2
+(function(num1) {
+    return function(num2) {
+		console.log(num1 + num2 );
+	};
+})(1)(2);
+//3
+(function(num1) {
+    return function(num2) {
+	return function(num3) {
+		console.log(num1 + num2 + num3);
+	};
+}
+})(1)(2)(3);
