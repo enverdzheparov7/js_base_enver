@@ -79,4 +79,98 @@ let func22 = function() {
 };
 function func33() {
 	console.log('!')
-};
+}; 
+
+
+//231 
+
+//1
+
+
+//Function Declaration
+function func231_1() {
+	console.log('!');
+}
+//2
+
+
+//Function Expression
+let func231_2 = function() {
+	console.log('!');
+}
+//3
+
+
+//Function Expression
++function() {
+	console.log('!');
+}
+//4
+
+
+//Function Expression
+!function func231_4() {
+	console.log('!');
+}
+//5
+
+
+//Function Expression
+-function func231_5() {
+	console.log('!');
+}
+//6
+
+
+//Function Expression
+1 + function func231_6() {
+	console.log('!');
+}
+//7
+
+
+//Function Expression
+(function func231_7() {
+	console.log('!');
+})
+//8
+
+
+//Function Expression
+console.log(
+	function() {
+		console.log('!');
+	}
+); 
+
+//234
+
+//1
+
+//testik();// выведет ошибку в консоль, значит Function Expression
+
+let testik = function func234_1() {
+	console.log('!');
+}
+//2
+
+//func234_2();// выведет ошибку в консоль, значит Function Expression
+console.log(
+	function func234_2() {
+		console.log('!');
+	}
+);
+//3
+
+//func234_3();// выведет ошибку в консоль, значит Function Expression
+
++function func234_3() {
+	console.log('!');
+}
+//4
+
+
+func234_4();// выведет '!', значит Function Declaration
+function func234_4() {
+	console.log('!');
+}
