@@ -60,3 +60,51 @@ arr.forEach(function(elem) {
 });
 
 console.log(sum5);
+
+//281 потом
+
+//282
+//1
+let array = [1, 2, 3, 4, 5];
+
+let check = array.every(function(elem) {
+	if (elem >= 0) {
+		return true;
+	} else {
+		return false;
+	}
+});
+
+console.log(check);
+
+//2
+let array1 = [1, 2, 3, 4, 8];
+
+let check1 = array1.every(function(elem, index) {
+	if (elem * index <30) {
+		return true;
+	} else {
+		return false;
+	}
+});
+
+console.log(check1);
+
+//283
+
+//1
+let array28 = [2, 4, 6, 8];
+
+let results = array28.some(function(elem) {
+	return elem > 0;
+});
+
+console.log(results);
+
+//2
+let array283 = [9,8,7,6,5]
+
+let result = array283.some(function(elem,index){
+	return elem * index > 30;
+})
+console.log(result)
