@@ -14,7 +14,7 @@ let salary     = arr[4];
 let arr = ['John', 'Smit', 'development', 'programmer', 2000];
 
 let [name, surname, department, position, salary] = arr ;
-
+console.log('-------------------------------------296');
 console.log(name);
 console.log(surname);
 console.log(department);
@@ -43,7 +43,7 @@ function func() {
 
  [name, surname, department, position, salary] = func() ;
 
-console.log('-------------------------------------');
+console.log('-------------------------------------297');
  console.log(name);
  console.log(surname);
  console.log(department);
@@ -57,7 +57,7 @@ console.log('-------------------------------------');
 
  [, surname, department ,,] = arr3;
 
- console.log('-------------------------------------');
+ console.log('-------------------------------------298');
  console.log(surname);
  console.log(department); 
 
@@ -68,7 +68,7 @@ console.log('-------------------------------------');
 
  [name, surname, ...lasts] = arr4;
 
- console.log('-------------------------------------');
+ console.log('-------------------------------------300');
  console.log(name);
  console.log(surname);
  console.log(lasts);
@@ -85,7 +85,7 @@ if (arr5[3] !== undefined) {
 	position = 'trainee';
 }
 
-console.log('-------------------------------------');
+console.log('-------------------------------------301');
 console.log(name);
 console.log(surname);
 console.log(department);
@@ -104,7 +104,7 @@ function funt(){
     return (new Date).getFullYear();
 }
 let arr6 = [,,'6']
-console.log('-------------------------------------');
+console.log('-------------------------------------302');
 let [year=funt(), month=fun(), day ] = arr6;
 
 console.log(year);
@@ -121,7 +121,7 @@ let options = {
 
 let {color, width, height} = options;
 
-console.log('-------------------------------------');
+console.log('-------------------------------------304');
 console.log(color);
 console.log(width);
 console.log(height);
@@ -135,7 +135,8 @@ let options1 = {
 };
 
 let {color:c, width:w, height:h} = options1;
-console.log('-------------------------------------');
+console.log('-------------------------------------305');
 console.log(c);
 console.log(w);
 console.log(h);
+
