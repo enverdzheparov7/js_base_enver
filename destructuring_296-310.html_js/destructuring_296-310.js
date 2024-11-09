@@ -177,3 +177,84 @@ console.log(co);
 console.log(wi);
 console.log(he);
 
+//308
+
+
+/*Без команды let перед фигурными скобками эти фигурные скобки не будут восприняты JavaScript как команда на деструктуризацию (а будут восприняты как блок кода):
+
+{year, month, day} = obj; // не будет работать
+Для решения проблемы команду на деструктуризацию объекта нужно брать в круглые скобки:
+
+({year, month, day} = obj);*/
+
+//309
+
+console.log('-------------------------------------309-1');
+
+function funka([name, surname, department, position, salary] ) {
+	console.log(name);
+    console.log(surname);
+    console.log(department);
+    console.log(position);
+    console.log(salary);    
+}
+
+funka( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+console.log('-------------------------------------309-2');
+
+function funka2([name, surname, info]) {
+    console.log(name);
+    console.log(surname);
+    console.log(info);
+}
+
+funka2( ['John', 'Smit', 'development', 'programmer', 2000] );
+
+console.log('-------------------------------------309-3');
+
+function funka3([name, surname, department, position = 'джуниор'] ) {
+	console.log(name);
+    console.log(surname);
+    console.log(department);
+    console.log(position);  
+}
+
+funka3( ['John', 'Smit', 'development'] );
+
+console.log('-------------------------------------309-4');
+
+function funka4(department, [name, surname], [year, month, day]) {
+	console.log(department)
+    console.log('-------------------------------------');
+    console.log(name);
+    console.log(surname);
+    console.log('-------------------------------------');
+    console.log(year); 
+	console.log(month); 
+	console.log(day);   
+}
+
+funka4( 'development', ['John', 'Smit'], [2018, 12, 31] );
+
+
+//310
+console.log('-------------------------------------310-1');
+function funka5({color,width,height}) {
+    console.log(color);
+    console.log(width);
+    console.log(height);
+    
+}
+
+funka5( {color: 'red', width: 400, height: 500} );
+
+console.log('-------------------------------------310-2');
+function funka6({color = 'black', width, height}) {
+    console.log(color);
+    console.log(width);
+    console.log(height);
+    
+}
+
+funka6( { width: 400, height: 500} );
