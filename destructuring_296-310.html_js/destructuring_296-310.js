@@ -177,6 +177,3 @@ console.log(co);
 console.log(wi);
 console.log(he);
 
-//308
-
-console.log('-------------------------------------308');
