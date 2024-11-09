@@ -110,3 +110,32 @@ let [year=funt(), month=fun(), day ] = arr6;
 console.log(year);
 console.log(month);
 console.log(day);
+
+//304
+
+let options = {
+	color: 'red',
+	width:  400,
+	height: 500,
+};
+
+let {color, width, height} = options;
+
+console.log('-------------------------------------');
+console.log(color);
+console.log(width);
+console.log(height);
+
+///305
+
+let options1 = {
+	color: 'orange',
+	width:  100,
+	height: 250,
+};
+
+let {color:c, width:w, height:h} = options1;
+console.log('-------------------------------------');
+console.log(c);
+console.log(w);
+console.log(h);
