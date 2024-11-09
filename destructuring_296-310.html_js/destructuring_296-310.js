@@ -140,3 +140,43 @@ console.log(c);
 console.log(w);
 console.log(h);
 
+//306
+
+let options2 = {
+	widths:  400,
+	heights: 500,
+};
+
+let {colors, widths, heights} = options2;
+
+if (options2.color !== undefined) {
+	colors = options2.colors;
+} else {
+	colors = 'black';
+}
+
+console.log('-------------------------------------306');
+console.log(colors);
+console.log(widths);
+console.log(heights);
+
+//307
+
+console.log('-------------------------------------307');
+
+let options3 = {
+	width:  400,
+	height: 500,
+};
+
+
+let {color: co , width: wi, height: he} = options3;
+
+
+console.log(co);
+console.log(wi);
+console.log(he);
+
+//308
+
+console.log('-------------------------------------308');
