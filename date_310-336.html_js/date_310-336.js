@@ -16,9 +16,42 @@ console.log(year());
 
 let date = new Date();
 
-console.log(date.getHours());    // часы
-console.log(date.getMinutes());  // минуты
-console.log(date.getSeconds()); // секунды
+console.log('часы ' + date.getHours());    // часы
+console.log('минуты ' + date.getMinutes());  // минуты
+console.log('секунды ' + date.getSeconds()); // секунды
 
 //312
 console.log('-------------------------------------312');
+
+function addZero(num) {
+	if (num >= 0 && num <= 9) {
+		return '0' + num;
+	} else {
+		return num;
+	}
+}
+
+let data = new Date();
+
+console.log(
+	addZero(data.getFullYear()) + '-' + 
+	addZero(data.getMonth() + 1) + '-' +
+	addZero(data.getDate())
+);
+
+console.log(
+	addZero(data.getHours()) + ':' + 
+	addZero(data.getMinutes() + 1) + ':' +
+	addZero(data.getSeconds())
+);
+
+//313
+
+console.log('-------------------------------------313');
+
+let str = addZero(data.getFullYear()) + '-' + 
+addZero(data.getMonth() + 1) + '-' +
+addZero(data.getDate());
+
+let res = str.split('-').reverse().join('.');
+console.log(res)
