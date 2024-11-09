@@ -68,6 +68,45 @@ console.log('-------------------------------------');
 
  [name, surname, ...lasts] = arr4;
 
+ console.log('-------------------------------------');
  console.log(name);
  console.log(surname);
  console.log(lasts);
+
+ //301
+
+ let arr5 = ['John', 'Smit', 'development'];//['John', 'Smit', 'development', 'programmer']
+
+[name, surname, department, position] = arr5;
+
+if (arr5[3] !== undefined) {
+	position = arr5[3];
+} else {
+	position = 'trainee';
+}
+
+console.log('-------------------------------------');
+console.log(name);
+console.log(surname);
+console.log(department);
+console.log(position);
+
+
+//302
+function func1() {
+	return (new Date).getDate();
+    
+}
+function fun(){
+    return (new Date).getMonth()+1;
+}
+function funt(){
+    return (new Date).getFullYear();
+}
+let arr6 = [,,'6']
+console.log('-------------------------------------');
+let [year=funt(), month=fun(), day ] = arr6;
+
+console.log(year);
+console.log(month);
+console.log(day);
