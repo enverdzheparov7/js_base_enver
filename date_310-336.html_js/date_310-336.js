@@ -70,3 +70,25 @@ if(date2.getDay>5 || date2.getDay()<1){
 }
 
 console.log('3. '+ (7-date2.getDay()))
+
+//315 
+
+console.log('-------------------------------------315');
+let manth = new Date();
+let month2  = manth.getMonth();
+
+let months = [
+	'янв', 'фев', 'мар', 'апр', 'май', 'июн',
+	'июл', 'авг', 'сен', 'окт', 'ноябрь', 'декабрь'
+];
+
+console.log(months[month2])
+
+//316
+
+console.log('-------------------------------------316');
+
+
+let date3 = new Date(2025, 1, 1, 0,0, 0);
+console.log(date3.getTime() + 'секунд');
+
