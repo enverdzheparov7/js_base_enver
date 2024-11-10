@@ -144,11 +144,9 @@ console.log('-------------------------------------320');
 //1
 
 
-
 let date4 = new Date(2018, 1, 35); //4 февраля 2018
 console.log(date4); // какая дата будет?
 //2
-
 
 
 let date5 = new Date(2018, 15, 1); //1 февраля 2019
@@ -156,11 +154,9 @@ console.log(date5); // какая дата будет?
 //3
 
 
-
 let date6 = new Date(2018, 3, 31);//1 мая 2018
 console.log(date6); // какая дата будет?
 //4
-
 
 
 let date7 = new Date(2018, 1, 31);//3 марта
@@ -168,11 +164,9 @@ console.log(date7); // какая дата будет?
 //5
 
 
-
 let date8 = new Date(2018, 12, 33); //2 февраля
 console.log(date8); // какая дата будет?
 //6
-
 
 
 let date9 = new Date(2018, 33, 33);
@@ -180,11 +174,9 @@ console.log(date9); // какая дата будет? 2020 2 ноября
 //7
 
 
-
 let date10 = new Date(2018, 5, 0);
 console.log(date10); // какая дата будет? 31 мая 2018
 //8
-
 
 
 let date11 = new Date(2018, 0, 0);
@@ -192,11 +184,9 @@ console.log(date11); // какая дата будет? 31 декабря 2017
 //9
 
 
-
 let date12 = new Date(2018, -12, -33);
 console.log(date12); // какая дата будет? 28 ноября 2016
 //10
-
 
 
 let date13 = new Date(2018, 0, 1, 23, 0, 60);
@@ -205,13 +195,52 @@ console.log(date13); // какая дата будет? 23:01:00 2018 год 1 �
 //11
 
 
-
 let date14 = new Date(2018, 0, 1, 23, 60, 0);
 console.log(date14); // какая дата будет? 2 января 2018 00:00:00
 //12
 
 
-
 let date15 = new Date(2018, 0, 1, 100, 100, 100);
 console.log(date15); // какая дата будет? 5 января 2018 05:41:40
+
+
+//321
+console.log('-------------------------------------321');
+console.log('-------------------------------------321');
+console.log('-------------------------------------321');
+
+function LastDayOfMonth(year, month) {
+    let date = new Date(year, month, 0);
+    return date.getDate();
+}
+
+
+let lastDay = LastDayOfMonth(2020, 3);
+console.log('lastDay: ' + lastDay); 
+
+let five = new Date(2025, 4, 0);
+let dayin  = datas.getDay();
+let daysis = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+
+console.log(daysis[dayin])
+
+
+//322
+
+console.log('-------------------------------------322');
+
+let febr = new Date(2024, 2, 0);
+function isLeap(data){
+   if(data.getDate()>28)
+{
+	return true;
+}else{
+	return false;
+}
+
+}
+
+console.log(isLeap(febr));
+
+
 
