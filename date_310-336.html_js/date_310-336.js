@@ -242,5 +242,31 @@ function isLeap(data){
 
 console.log(isLeap(febr));
 
+//323
+
+console.log('-------------------------------------323');
+
+let year3 = 2024, month3 = 20, day3 = 10;
+let dates = new Date(year3 , month3 , day3);
+function Check(data, year, month, day){
+   if(data.getFullYear() == year && data.getMonth() == month && data.getDate() == day)
+{
+	return true;
+}else{
+	return false;
+}
+
+}
 
 
+console.log(Check(dates, year3 , month3 , day3 ));
+
+//324
+
+console.log('-------------------------------------324');
+let nows  = new Date(); // получаем текущий момент
+let dats = new Date(nows.getFullYear(), 11, 31); // получаем нашу дату
+console.log(dats.getDay());
+let das = dats.getDay();
+let daysiss = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+console.log(daysis[das])
