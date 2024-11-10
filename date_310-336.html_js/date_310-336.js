@@ -270,3 +270,11 @@ console.log(dats.getDay());
 let das = dats.getDay();
 let daysiss = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
 console.log(daysis[das])
+
+
+//325 
+console.log('-------------------------------------325');
+let news = new Date();
+
+let datis = new Date(now.getFullYear(), news.getMonth() - 1, 10);
+console.log(daysis[datis.getDay()])
