@@ -88,7 +88,35 @@ console.log(months[month2])
 
 console.log('-------------------------------------316');
 
+let datas = new Date(2006, 7, 3); 
+let day1  = datas.getDay();
+let days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
 
-let date3 = new Date(2025, 1, 1, 0,0, 0);
-console.log(date3.getTime() + 'секунд');
+console.log(days[day1]);
+
+
+//317
+console.log('-------------------------------------317');
+
+
+let date3 = new Date(2025, 1, 1, 0,0, 0);//new Date(год, месяц, день, часы, минуты, секунды, миллисекунды)
+console.log(date3.getTime() + ' секунд');
+
+console.log('-------------------------------------318');
+
+
+//318
+
+let january = new Date(2000, 0, 10, 0,0, 0);
+
+let march = new Date(1998, 2, 1, 0,0, 0);
+
+let diff = january.getTime() - march.getTime()
+
+console.log((diff/ (1000 * 60 * 60 * 24)+ ' дней'))
+
+let now = new Date()
+let bday = new Date(2006, 7, 3);
+let different = now.getTime() - bday.getTime();
+console.log(Math.floor(different/(1000 * 60 * 60 * 24))+ ' дней')
 
