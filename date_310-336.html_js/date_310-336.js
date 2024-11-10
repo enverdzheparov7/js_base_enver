@@ -55,3 +55,18 @@ addZero(data.getDate());
 
 let res = str.split('-').reverse().join('.');
 console.log(res)
+
+
+
+//314
+console.log('-------------------------------------314');
+let date2 = new Date();
+console.log('1. ' + date2.getDay());
+
+if(date2.getDay>5 || date2.getDay()<1){
+	console.log('2. выходной')
+}else{
+	console.log('2. рабочий день')
+}
+
+console.log('3. '+ (7-date2.getDay()))
