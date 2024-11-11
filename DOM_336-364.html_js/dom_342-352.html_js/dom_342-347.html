@@ -5,6 +5,8 @@
 		<title>Не первая программа</title>
 	</head>
 	<body>
+
+        
 		<h2>343#1</h2>
         <p id="elem1">text</p>
         <p id="elem2">text</p>
@@ -26,18 +28,26 @@
 <p id ="nim-nim">1. textok</p>
 <p id ="nim-nim1">2. textok</p>
 <!-- 346 2 -->
+<h2>346#2</h2>
 <p id ="nim-nim2">3</p>
 <p id ="nim-nim3">3</p>
 <!-- 346 3 -->
+<h2>346#3</h2>
 <p id ="nim-nim4">4</p>
 <p id ="nim-nim5">4</p>
 <p id ="nim-nim6">4</p>
 <div id="div"></div>
 <!-- 346 4 -->
+<h2>346#4</h2>
 <input id="button" type="submit">
 <!-- 346 5 -->
+<h2>346#5</h2>
 <p id ="nim-nim7">99</p>
 <input id="button1" type="submit">
+<!-- 347 -->
+<h2>347#1-2</h2>
+<p id ="num347">rex</p>
+<input id="baton" type="submit">
 <script>
 //343
    
@@ -116,6 +126,12 @@ button_1.addEventListener('click', function(){
     console.log(knopk8.textContent=Number(knopk8.textContent)+1+'!')//после повторного нажатия выдаст NaN
 })
 
+//347
+let baton = document.querySelector('#baton');
+let num347 = document.querySelector('#num347');
+baton.addEventListener('click', function(){
+    console.log(num347.innerHTML='<b>rex</b>');
+})
 	</script>
 
 
