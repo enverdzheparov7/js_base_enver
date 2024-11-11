@@ -6,5 +6,19 @@
 }
 
 #elem3 {
-    background-color: #ad8819; 
+    background-color: #ad1919; 
+}
+
+#block {
+    background-color: #0dbde9; 
+}
+
+.block {
+    background-color: #e90db2; 
+}
+
+.www {
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffe70e; 
 }
