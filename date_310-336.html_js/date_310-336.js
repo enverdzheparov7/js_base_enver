@@ -386,3 +386,59 @@ let date111 = '2020-11-31';
 let date222 = '2020-12-01';
 console.log(date111>date222);
 
+//334
+let date1111 = '09-21';
+let date2222 = '09-23';
+console.log('-------------------------------------334');
+
+console.log(date1111>date2222);
+
+//335
+let dat = '10-10'; // Пример даты
+
+console.log('-------------------------------------335');
+
+function zodiak(date) {
+    const [day, month] = date.split('-').map(Number);
+    
+    if ((month === 3 && day >= 21) || (month === 4 && day <= 20)) {
+        return 'Овен (21 марта – 20 апреля)';
+    } 
+    if ((month === 4 && day >= 21) || (month === 5 && day <= 20)) {
+        return 'Телец (21 апреля – 20 мая)';
+    } 
+    if ((month === 5 && day >= 21) || (month === 6 && day <= 21)) {
+        return 'Близнецы (21 мая – 21 июня)';
+    } 
+    if ((month === 6 && day >= 22) || (month === 7 && day <= 22)) {
+        return 'Рак (22 июня – 22 июля)';
+    } 
+    if ((month === 7 && day >= 23) || (month === 8 && day <= 23)) {
+        return 'Лев (23 июля – 23 августа)';
+    } 
+    if ((month === 8 && day >= 24) || (month === 9 && day <= 23)) {
+        return 'Дева (24 августа – 23 сентября)';
+    } 
+    if ((month === 9 && day >= 24) || (month === 10 && day <= 23)) {
+        return 'Весы (24 сентября – 23 октября)';
+    } 
+    if ((month === 10 && day >= 24) || (month === 11 && day <= 22)) {
+        return 'Скорпион (24 октября – 22 ноября)';
+    } 
+    if ((month === 11 && day >= 23) || (month === 12 && day <= 21)) {
+        return 'Стрелец (23 ноября – 21 декабря)';
+    } 
+    if ((month === 12 && day >= 22) || (month === 1 && day <= 20)) {
+        return 'Козерог (22 декабря – 20 января)';
+    } 
+    if ((month === 1 && day >= 21) || (month === 2 && day <= 20)) {
+        return 'Водолей (21 января – 20 февраля)';
+    } 
+    if ((month === 2 && day >= 21) || (month === 3 && day <= 20)) {
+        return 'Рыбы (21 февраля – 20 марта)';
+    }
+}
+
+console.log(zodiak(dat));
+
+
