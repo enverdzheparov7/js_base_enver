@@ -278,3 +278,28 @@ let news = new Date();
 
 let datis = new Date(now.getFullYear(), news.getMonth() - 1, 10);
 console.log(daysis[datis.getDay()])
+
+//326
+console.log('-------------------------------------326');
+let jan  = new Date();
+let date326 = new Date(jan.getFullYear() + 1, 11, 31);
+let daysisis = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+console.log(daysisis[date326.getDay()]);
+let date326_2 = new Date(jan.getFullYear() + 1, 10, 11);
+console.log(daysisis[date326_2.getDay()]);
+let date326_3 = new Date(jan.getFullYear() - 1, 10, 11);
+console.log(daysisis[date326_3.getDay()]);
+
+
+//327
+console.log('-------------------------------------327');
+
+let date_1 = new Date(2024, 0, 1);
+let date_2 = new Date(2024, 8, 10);
+
+console.log((date_2 - date_1)/(1000*60*60*24));
+
+let date_11 = new Date(2024, 10, 11);
+let date_22 = new Date(2024, 11, 10);
+
+console.log((date_22 - date_11)/(1000*60*60*24));
