@@ -354,3 +354,35 @@ for(let year = 2000; year < 2025; year++){
 console.log(sum)
 
 ///332
+console.log('-------------------------------------332');
+//1
+let segodnya = new Date(2024, 10, 11, 0, 0, 0);
+
+let seychas = new Date();
+//2
+
+console.log(( seychas - segodnya )/(1000))
+
+let zavtra = new Date(2024, 10, 12, 0, 0, 0);
+
+let shas = new Date();
+console.log(( zavtra - shas )/(1000))
+
+//3
+
+let sevodnya = new Date(2024, 10, 11); 
+let now_god = new Date(2024, 11, 31);
+
+let difference = now_god - sevodnya; // Разница в миллисекундах
+let differenceday = difference / (1000 * 60 * 60*24); 
+
+console.log(differenceday);
+
+//потом 6-9
+
+///333
+console.log('-------------------------------------333');
+let date111 = '2020-11-31';
+let date222 = '2020-12-01';
+console.log(date111>date222);
+
