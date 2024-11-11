@@ -312,18 +312,45 @@ let now328  = new Date(2024, 10, 10);
 let date328 = new Date(now328.getFullYear(), now328.getMonth(), now328.getDate(), 12);
 
 let now328_1 = new Date();
-let date328_1 = new Date(now328_1.getFullYear(), now328_1.getMonth(), now328_1.getDate());
+let date328_1 = new Date(now328_1.getFullYear(), now328_1.getMonth(), now328_1.getDate(), now328_1.getHours(), now328_1.getMinutes());
 console.log((date328_1-date328)/(1000*60*60));
 
 //329
 console.log('-------------------------------------329');
 
 let now329  = new Date(2024, 10, 11);
-let date329 = new Date(now329.getFullYear(), now329.getMonth(), now329.getDate(), 12);
+let date329 = new Date(now329.getFullYear(), now329.getMonth(), now329.getDate());
 
 let now329_1 = new Date();
-let date329_1 = new Date(now329_1.getFullYear(), now329_1.getMonth(), now329_1.getDate());
-console.log((date329-date329_1)/(1000*60*60));
+let date329_1 = new Date(now329_1.getFullYear(), now329_1.getMonth(), now329_1.getDate(), now329_1.getHours(), now329_1.getMinutes());
+console.log((date329_1-date329)/(1000*60*60));
 
 //330
 console.log('-------------------------------------330');
+
+let now330  = new Date();
+let date330 = new Date(now330.getFullYear(), now330.getMonth(), now330.getDate(), now330.getHours(), now330.getMinutes());
+
+let now330_1 = new Date(2024,10,12);
+let date330_1 = new Date(now330_1.getFullYear(), now330_1.getMonth(), now330_1.getDate());
+console.log((date330_1-date330)/(1000*60*60));
+
+//331
+console.log('-------------------------------------331');
+
+let yea = 2000;
+let mon = 0;
+let dau = 1;
+let data2000 = new Date(yea, mon, dau);
+let sum = 0;
+
+for(let year = 2000; year < 2025; year++){
+    yea++;
+	data2000 = new Date(yea, mon, dau);
+   if((data2000.getDay()==0 || data2000.getDay()==6)){
+     sum++;
+   }
+}
+console.log(sum)
+
+///332
