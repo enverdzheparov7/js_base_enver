@@ -303,3 +303,27 @@ let date_11 = new Date(2024, 10, 11);
 let date_22 = new Date(2024, 11, 10);
 
 console.log((date_22 - date_11)/(1000*60*60*24));
+
+
+//328
+console.log('-------------------------------------328');
+
+let now328  = new Date(2024, 10, 10);
+let date328 = new Date(now328.getFullYear(), now328.getMonth(), now328.getDate(), 12);
+
+let now328_1 = new Date();
+let date328_1 = new Date(now328_1.getFullYear(), now328_1.getMonth(), now328_1.getDate());
+console.log((date328_1-date328)/(1000*60*60));
+
+//329
+console.log('-------------------------------------329');
+
+let now329  = new Date(2024, 10, 11);
+let date329 = new Date(now329.getFullYear(), now329.getMonth(), now329.getDate(), 12);
+
+let now329_1 = new Date();
+let date329_1 = new Date(now329_1.getFullYear(), now329_1.getMonth(), now329_1.getDate());
+console.log((date329-date329_1)/(1000*60*60));
+
+//330
+console.log('-------------------------------------330');
