@@ -442,3 +442,23 @@ function zodiak(date) {
 console.log(zodiak(dat));
 
 
+//336
+
+console.log('-------------------------------------336');
+let date3361 = new Date(2024, 10, 11, 12);
+let date3362 = new Date();
+
+console.log(date3362 > date3361);
+if(date3362 > date3361==true){
+	console.log('полдень был')
+} else{
+	console.log('полдень не был')
+}
+
+
+let date3363 = new Date(2024, 10, 15);
+if(date3363 > date3361==true){
+	console.log('пол месяца не прошло')
+} else{
+	console.log('пол месяца прошло')
+}
