@@ -17,6 +17,27 @@
        
 <p id="elem">ЖМИ</p>
 
+<h2>345#1</h2>
+       
+<h3 id="jim">НАЖМИ</h3>
+
+<h2>346#1</h2>
+<!-- 346 1 -->
+<p id ="nim-nim">1. textok</p>
+<p id ="nim-nim1">2. textok</p>
+<!-- 346 2 -->
+<p id ="nim-nim2">3</p>
+<p id ="nim-nim3">3</p>
+<!-- 346 3 -->
+<p id ="nim-nim4">4</p>
+<p id ="nim-nim5">4</p>
+<p id ="nim-nim6">4</p>
+<div id="div"></div>
+<!-- 346 4 -->
+<input id="button" type="submit">
+<!-- 346 5 -->
+<p id ="nim-nim7">99</p>
+<input id="button1" type="submit">
 <script>
 //343
    
@@ -51,6 +72,50 @@ function func2() {
 function func3() {
 	console.log('3');
 }
+
+//345
+
+let knopka1 = document.querySelector('#jim')
+knopka1.addEventListener('dblclick', function() {
+	console.log('двойное нажатие');
+})
+knopka1.addEventListener('mouseover', function() {
+	console.log('наводка курсора');
+})
+knopka1.addEventListener('mouseout', function() {
+	console.log('увод курсора');
+})
+
+//346 
+let knopk = document.querySelector('#nim-nim');
+knopk.addEventListener('click', function(){
+    console.log(knopk.textContent);
+}) ;
+let knopk2 = document.querySelector('#nim-nim1');
+knopk2.addEventListener('click', function(){
+    console.log(knopk2.textContent='yahay');
+}) ;
+let knopk3 = document.querySelector('#nim-nim2');
+let knopk4 = document.querySelector('#nim-nim3');
+
+knopk3.addEventListener('click', function(){
+    console.log(Number(knopk3.textContent)+Number(knopk4.textContent));
+}) ;
+
+let knopk5 = document.querySelector('#nim-nim4');
+let knopk6 = document.querySelector('#nim-nim5');
+let knopk7 = document.querySelector('#nim-nim6');
+let div = document.querySelector('#div');
+let button = document.querySelector('#button');
+button.addEventListener('click', function(){
+    console.log(div.textContent=Number(knopk5.textContent)+Number(knopk6.textContent)+Number(knopk7.textContent) )
+})
+let knopk8 = document.querySelector('#nim-nim7');
+let button_1 = document.querySelector('#button1');
+button_1.addEventListener('click', function(){
+    console.log(knopk8.textContent=Number(knopk8.textContent)+1+'!')//после повторного нажатия выдаст NaN
+})
+
 	</script>
 
 
