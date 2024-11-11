@@ -56,6 +56,18 @@
 <p> при утере фокуса выведет квадрат <input id="elem13" value=""></p>
 <h2>350#3</h2>
 <p> нажмите в любую область экрана <input id="elem14" value="text"></p>
+
+<h2>351#1</h2>
+<div id="elem15" class="content no-gap"></div>
+<p>  <input id="baton14" type="submit"></p>
+<h2>351#2</h2>
+<div id="elem16"></div>
+<p>  <input id="baton15" type="submit"></p>
+<h2>351#3</h2>
+<div id="elem17" class="aaa bbb ccc"></div>
+<p>  <input id="baton16" type="submit"></p>
+<h2>352#1</h2>
+<img id="image" src="rogaproga_.png">
 <script>
 //348
 let baton = document.querySelector('#baton');
@@ -131,6 +143,24 @@ elem13.addEventListener('blur', function() {
 elem14.addEventListener('blur', function() {
 	console.log(elem14.value='');
 });
+
+//351
+let baton14 = document.querySelector('#baton14');
+baton14.addEventListener('click', function(){
+    console.log(elem15.className);
+})
+let baton15 = document.querySelector('#baton15');
+baton15.addEventListener('click', function(){
+    console.log(elem16.className='class');
+})
+let baton16 = document.querySelector('#baton16');
+baton16.addEventListener('click', function(){
+    console.log(elem17.className);
+})
+
+//352
+
+console.log(document.querySelector('#image').src);
 	</script>
 
 
