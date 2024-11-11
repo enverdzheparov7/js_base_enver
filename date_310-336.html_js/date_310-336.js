@@ -378,7 +378,44 @@ let differenceday = difference / (1000 * 60 * 60*24);
 
 console.log(differenceday);
 
+//4 
+
+let yea1 = 2024; 
+let sum1 = 0; 
+
+for (let month = 0; month < 12; month++) { 
+    for (let day = 1; day <= 31; day++) { 
+        let data2024 = new Date(yea1, month, day); 
+        if (day === 13 && data2024.getDay() === 5) { 
+            sum1++; 
+        } 
+    } 
+} 
+
+console.log(sum1);
+//количество пятниц 13
+//5
+let currentdate = new Date();
+let cur = new Date( currentdate.setMonth(currentdate.getMonth()-13))//(от нынешего года отняли 13 месяцев)
+
+console.log(cur.getFullYear())
+
 //потом 6-9
+let currentDate = new Date();
+let lastDays = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+let list = lastDays;
+daysisis = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+console.log(daysisis[list.getDay()]);
+
+//7
+let currentYear = new Date().getFullYear();
+
+let isLeapYear = (year) => {
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+};
+
+console.log(isLeapYear(currentYear));
+
 
 ///333
 console.log('-------------------------------------333');
