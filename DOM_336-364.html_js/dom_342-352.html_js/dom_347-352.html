@@ -49,9 +49,13 @@
 <p>Обмен цифрами тут <input id="elem9" value=""></p>
 <p>Обмен цифрами тут <input id="elem10" value=""></p>
 <p>Обмен цифрами тут <input id="elem11" value=""></p>
-
-
-
+<!-- 350 -->
+<h2>350#1</h2>
+<p> нажмите в любую область экрана <input id="elem12" value=""></p>
+<h2>350#2</h2>
+<p> при утере фокуса выведет квадрат <input id="elem13" value=""></p>
+<h2>350#3</h2>
+<p> нажмите в любую область экрана <input id="elem14" value="text"></p>
 <script>
 //348
 let baton = document.querySelector('#baton');
@@ -113,7 +117,20 @@ baton8.addEventListener('click', function(){
     console.log(sred.textContent = (+elem7.value+ +elem8.value+ +elem9.value+ +elem10.value+ +elem11.value)/5)
     console.log(pa.textContent=elem2.value);
 })
+elem12.addEventListener('focus', function() {
+	console.log(elem12.value=1);
+});
+elem12.addEventListener('blur', function() {
+	console.log(elem12.value=2);
+});
 
+elem13.addEventListener('blur', function() {
+	alert(elem13.value**2);
+});
+
+elem14.addEventListener('blur', function() {
+	console.log(elem14.value='');
+});
 	</script>
 
 
