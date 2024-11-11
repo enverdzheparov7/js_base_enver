@@ -33,6 +33,25 @@
 <img id = "img2" src="" width="300">
 <input id="baton6" type="submit">
 <input id="baton7" type="submit">
+<!-- 349 -->
+<h2>349#1</h2>
+<p id="perec"></p>
+<p>Введи любой текст <input id="elem2" value=""></p>
+<p>Введи цифры <input id="elem3" value=""></p>
+<p>Получи квадрат введённого числа <input id="elem4" value=""></p>
+<p>Обмен цифрами тут <input id="elem5" value=""></p>
+<p>Обмен цифрами тут <input id="elem6" value=""></p>
+<p>Нажми кнопку чтоб выполнить всё(что выше и ниже) <input id="baton8" type="submit"></p>
+<p>Найдем среднее арифметическое для всех инпутов:</p>
+<p id="srednee"></p>
+<p>Обмен цифрами тут <input id="elem7" value=""></p>
+<p>Обмен цифрами тут <input id="elem8" value=""></p>
+<p>Обмен цифрами тут <input id="elem9" value=""></p>
+<p>Обмен цифрами тут <input id="elem10" value=""></p>
+<p>Обмен цифрами тут <input id="elem11" value=""></p>
+
+
+
 <script>
 //348
 let baton = document.querySelector('#baton');
@@ -77,7 +96,23 @@ baton7.addEventListener('click', function(){
     img2.src='rogaproga_.png'
     console.log('eee');
 })
-//8
+// 349
+
+let elem2 = document.querySelector('#elem2');
+let sred = document.querySelector('#srednee')
+let pa = document.querySelector('#perec')
+let baton8 = document.querySelector('#baton8');
+baton8.addEventListener('click', function(){
+    elem4.value=elem3.value**2;
+    console.log(elem2.value);
+    console.log(elem3.value);
+    console.log(elem4.value);
+    let ele = elem5.value;
+    elem5.value=elem6.value;
+    elem6.value=ele;
+    console.log(sred.textContent = (+elem7.value+ +elem8.value+ +elem9.value+ +elem10.value+ +elem11.value)/5)
+    console.log(pa.textContent=elem2.value);
+})
 
 	</script>
 
