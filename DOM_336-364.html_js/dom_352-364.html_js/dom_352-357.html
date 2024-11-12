@@ -7,15 +7,73 @@
 	<body>
 
       
-<h2>352#1</h2>
+<h2>353#1</h2>
 <img id="image" src="rogaproga_.png" width="500" height="300">
+<h2>354#1</h2>
+<p> нажмите в любую область экрана <input id="elem12" value=""></p>
+<h2>354#2</h2>
 
+<input id="button1" type="submit" value="1">
+
+<h2>355#1</h2>
+<input id="button11" type="submit" value="text1">
+<input id="button22" type="submit" value="text2">
+<input id="button33" type="submit" value="text3">
+<input id="button44" type="submit" value="text4">
+<input id="button55" type="submit" value="text5">
+<h2>355#2</h2>
+<input id="button66" value="6">
+<input id="button77" value="7">
+<input id="button88" value="8">
 <script>
 //353
 let text = document.querySelector('#image')
 console.log(text.src);
 console.log(text.width);
 console.log(text.height);
+
+//354
+
+elem12.addEventListener('focus', function() {
+	console.log(elem12.value=1);
+});
+elem12.addEventListener('blur', function() {
+
+	console.log(this.value=2);
+	
+});
+//2
+
+let button_1 = document.querySelector('#button1');
+button_1.addEventListener('click', function(){
+    console.log(this.value=Number(this.value)+1)//после повторного нажатия выдаст NaN
+})
+//1 355
+let button1 = document.querySelector('#button11');
+let button2 = document.querySelector('#button22');
+let button3 = document.querySelector('#button33');
+let button4 = document.querySelector('#button44');
+let button5 = document.querySelector('#button55');
+button1.addEventListener('click', func1);
+button2.addEventListener('click', func1);
+button3.addEventListener('click', func1);
+button4.addEventListener('click', func1);
+button5.addEventListener('click', func1);
+function func1() {
+	console.log(this.value+'!');
+}
+
+//2 355
+let button6 = document.querySelector('#button66');
+let button7 = document.querySelector('#button77');
+let button8 = document.querySelector('#button88');
+button6.addEventListener('blur', func2);
+button7.addEventListener('blur', func2);
+button8.addEventListener('blur', func2);
+function func2() {
+	this.value=this.value**2
+	console.log(this.value);
+}
 	</script>
 
 
