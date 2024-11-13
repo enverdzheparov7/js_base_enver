@@ -25,6 +25,33 @@
 <input id="button66" value="6">
 <input id="button77" value="7">
 <input id="button88" value="8">
+
+
+<!-- 356 -->
+<h2>356#1</h2>
+<p class="www">text1</p>
+<p class="www">text2</p>
+<p class="www">text3</p>
+<h2>356#2</h2>
+<p class="num">text</p>
+<p class="num">text</p>
+<p class="num">text</p>
+<h2>356#3</h2>
+
+<p class="digit"></p>
+<input id="elem4" value="7">
+<input id="elem4" value="8">
+<input id="elem4" value="9">
+
+<input id="button_sum" type="submit" value="Сумма">
+<h2>357#1</h2>
+<input type="text" class="number-input" value="0">
+<input type="text" class="number-input" value="0">
+<input type="text" class="number-input" value="0">
+<h2>357#2</h2>
+<h4>3</h4>
+<h4>3</h4>
+<h4>3</h4>
 <script>
 //353
 let text = document.querySelector('#image')
@@ -46,7 +73,7 @@ elem12.addEventListener('blur', function() {
 
 let button_1 = document.querySelector('#button1');
 button_1.addEventListener('click', function(){
-    console.log(this.value=Number(this.value)+1)//после повторного нажатия выдаст NaN
+    console.log(this.value=Number(this.value)+1)
 })
 //1 355
 let button1 = document.querySelector('#button11');
@@ -73,6 +100,58 @@ button8.addEventListener('blur', func2);
 function func2() {
 	this.value=this.value**2
 	console.log(this.value);
+}
+//356
+let elems =document.querySelectorAll('.www')
+
+for(let elem of elems){
+	elem.textContent='text';
+	console.log(elem.textContent)
+}
+
+//2
+let elements = document.querySelectorAll('.num')
+let sum = 0;
+for(let elem of elements){
+	sum++;
+	elem.textContent=elem.textContent+sum;
+	console.log(elem.textContent)
+}
+
+//3
+
+let butsum = document.querySelector('#button_sum');
+let inputs = document.querySelectorAll('#elem4');
+let abzac = document.querySelector('.digit');
+
+butsum.addEventListener('click', funct);
+
+function funct() {
+    let sum = 0; 
+    inputs.forEach(input => {
+        sum += Number(input.value); 
+    });
+    abzac.textContent = sum; 
+}
+
+//357
+let inputss = document.querySelectorAll('.number-input');
+
+
+inputss.forEach(input => {
+            input.addEventListener('blur', func3);
+        });
+function func3() {
+	this.value = Number(this.value) + 1;
+}
+
+let elemss = document.querySelectorAll('h4');
+elemss.forEach(elem => {
+            elem.addEventListener('click', func4);
+        });
+function func4() {
+	this.value = Number(this.value) **2;
+	this.textContent = Number(this.textContent) ** 2;
 }
 	</script>
 
