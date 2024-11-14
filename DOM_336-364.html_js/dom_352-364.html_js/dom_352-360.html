@@ -52,6 +52,24 @@
 <h4>3</h4>
 <h4>3</h4>
 <h4>3</h4>
+<h2>358#1</h2>
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+
+<h2>359#1</h2>
+<a id="general" href="https://code.mu/ru/javascript/book/prime/dom/basis/handlers-unbinding/">ссылка</a>
+<p><input id="baton3" type="submit"></p>
+<h2>359#2</h2>
+
+<input id="button_2" type="submit" value="1">
+
+<h2>360#1</h2>
+<h5>Великолепно</h5>
+<h5>Великолепно</h5>
+<h5>Великолепно</h5>
 <script>
 //353
 let text = document.querySelector('#image')
@@ -153,6 +171,58 @@ function func4() {
 	this.value = Number(this.value) **2;
 	this.textContent = Number(this.textContent) ** 2;
 }
+
+//358
+
+//358
+
+let divs = document.querySelectorAll('div');
+
+for (let div of divs) {
+	div.addEventListener('click', function(){
+		this.textContent++;
+	});
+}
+
+//359
+//2
+let button_2 = document.querySelector('#button_2'); 
+
+
+function functio() { 
+    this.value = Number(this.value) + 1; 
+    console.log(this.value); 
+    
+    if (this.value >9) { 
+        button_2.removeEventListener('click', functio); 
+    } 
+}
+
+button_2.addEventListener('click', functio);
+
+//1
+let a = document.querySelector('#general')
+let baton3 = document.querySelector('#baton3');
+
+
+function href(){
+    console.log(a.textContent+=general.href);
+	baton3.removeEventListener('click', href); 
+}
+baton3.addEventListener('click', href )
+
+//360
+let element = document.querySelectorAll('h5');
+
+for(let elem of element){
+	elem.addEventListener('click', add)
+}
+function add(){
+	this.textContent =this.textContent+'!'
+	console.log(this.textContent);
+	this.removeEventListener('click', add)
+}
+
 	</script>
 
 
