@@ -40,6 +40,12 @@
         <p id="elem_2" data-num="">смотри код элемента</p>
         <p id="elem_2" data-num="">смотри код элемента</p>
         <p id="elem_2" data-num="">смотри код элемента</p>
+        <h2>372#1</h2>
+        <p id="elem_3" class="www ggg zzz">смотри код элемента</p>
+        <h2>372#2</h2>
+        <p id="elem_4" class="www ggg zzz">смотри код элемента</p>
+        <h2>373#1</h2>
+        <p id="elem_5" class="www ggg zzz">смотри код элемента</p>
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -101,6 +107,23 @@ for (let i = 0; i < abzacs.length; i++) {
     abzacs[i].setAttribute('data-num', i + 1);
     console.log(abzacs[i].getAttribute('data-num'));
 }
+
+//372
+let elem_3 = document.querySelector('#elem_3');
+let length = elem_3.classList.length;
+console.log(length)
+//2
+let elem_4 = document.querySelector('#elem_4');
+let classNames = elem_4.classList;
+
+for(let name of classNames){
+    console.log(name);
+}
+
+//373
+let elem_5 = document.querySelector('#elem_5')
+let plus_class = elem_5.classList.add('bbb');
+console.log(elem_5.getAttribute('class'));
 	</script>
 
 
