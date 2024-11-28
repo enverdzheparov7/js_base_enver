@@ -36,6 +36,10 @@
         <div id="elem_1" data-product-price="1000" data-product-amount="5">
             товар яблоки
         </div>
+        <h2>371#1</h2>
+        <p id="elem_2" data-num="">смотри код элемента</p>
+        <p id="elem_2" data-num="">смотри код элемента</p>
+        <p id="elem_2" data-num="">смотри код элемента</p>
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -90,6 +94,13 @@ let sum = click.addEventListener('click', ()=>{
 
     click.textContent += '(Стоимость: '+ sum + ')';
 })
+
+//371
+let abzacs = document.querySelectorAll('#elem_2');
+for (let i = 0; i < abzacs.length; i++) {
+    abzacs[i].setAttribute('data-num', i + 1);
+    console.log(abzacs[i].getAttribute('data-num'));
+}
 	</script>
 
 
