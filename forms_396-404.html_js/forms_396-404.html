@@ -29,6 +29,14 @@
         <input type="radio" name="elem" value="3">
         <p><button id="button7">Выведи текст отмеченной радиокнопки</button></p>
         <p id="abzac2"></p>
+        <h2>401#1</h2>
+        <input id="elem401" value="">
+        <p id="abzac3"></p>
+        <h2>401#2</h2>
+        <input id="checkboks" type="checkbox">
+        <h3 id="h3"></h3>
+        <h2>401#4</h2>
+        <input id="input4" value="">
         <h2>402#1</h2>
         <input id="elem4">
         <h2>402#2</h2>
@@ -118,6 +126,31 @@
 console.log(`
 401 Задание:
     `);
+    //1
+let elem401 = document.querySelector('#elem401');
+let abzac3 = document.querySelector('#abzac3');
+elem401.addEventListener('change', function() {
+	console.log(this.value);
+    abzac3.textContent = this.value;
+});
+//2
+let checkboks = document.querySelector('#checkboks');
+let h3 = document.querySelector('#h3');
+checkboks.addEventListener('change', function() {
+    h3.textContent = checkboks.checked;
+});
+//4
+let input4 = document.querySelector('#input4');
+
+input4.addEventListener('change', function () {
+  if (this.value.length < 5) {
+    this.classList.remove('red_border');
+    this.classList.add('green_border');
+  } else {
+    this.classList.remove('green_border');
+    this.classList.add('red_border');
+  }
+});
 
     console.log(`
 402.1 Задание:
@@ -200,7 +233,14 @@ Button1.addEventListener('click', function() {
 });
 </script>
 
-
+<style>
+    .green_border {
+      border: 2px solid green;
+    }
+    .red_border {
+      border: 2px solid red;
+    }
+  </style>
 
 	</body>
 </html> 
