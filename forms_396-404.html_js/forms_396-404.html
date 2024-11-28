@@ -29,6 +29,16 @@
         <input type="radio" name="elem" value="3">
         <p><button id="button7">Выведи текст отмеченной радиокнопки</button></p>
         <p id="abzac2"></p>
+        <h2>402#1</h2>
+        <input id="elem4">
+        <h2>402#2</h2>
+        <input id="elem5">
+        <p id="abzac4"></p>
+        <h2>403#1</h2>
+        <input id="input">
+        <input id="input1">
+        <h2>404#1</h2>
+
 <script>
     //396
     console.log(`
@@ -97,6 +107,57 @@
 		}
 	}
 });
+console.log(`
+401 Задание:
+    `);
+
+    console.log(`
+402.1 Задание:
+    `);
+    let elem4 = document.querySelector('#elem4');
+
+    elem4.addEventListener('input', function() {
+	console.log(this.value);
+    if(this.value.length > 5){
+        console.log('Текст больше 5 символов. Респект!')
+    }
+});
+console.log(`
+402.2 Задание:
+    `);
+    let elem5 = document.querySelector('#elem5');
+    let abzac4 = document.querySelector('#abzac4');
+    elem5.addEventListener('input', function() {
+	console.log(this.value);
+    if(this.value.length <= 5){
+        console.log('Осталось символов '+ (5-this.value.length) )
+        abzac4.textContent = 'Осталось символов '+ (5-this.value.length);
+    }
+    if(this.value.length > 5){
+        console.log('Превышено символов '+ (this.value.length - 5) )
+        abzac4.textContent = 'Превышено символов '+ (this.value.length - 5);
+    }
+});
+    console.log(`
+403 Задание:
+    `);
+let elem6   = document.querySelector('#elem6');
+let input = document.querySelector('#input');
+let input1 = document.querySelector('#input1');
+input.addEventListener('input', function() {
+	if(this.value.length === 2){
+    input1.focus();
+    }
+});
+input1.addEventListener('input', function() {
+    if(this.value.length === 2){
+    this.blur();
+    }
+});
+    console.log(`
+404 Задание:
+    `);
+
 </script>
 
 
