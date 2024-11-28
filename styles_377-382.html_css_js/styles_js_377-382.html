@@ -16,7 +16,7 @@
             <h3>В условиях динамично развивающегося рынка общественного питания, управление кафе-баром становится все более сложной задачей. С ростом конкуренции и изменением потребительских предпочтений, заведения должны адаптироваться, предлагая не только качественные продукты и услуги, но и эффективное управление внутренними процессами. В этом контексте использование информационных систем, таких как «1С: Предприятие», приобретает особую значимость.</h3>
         </div>
 <input id="button1" type="submit">
-
+   
 <h2>379#1</h2>
 <ul id="elem2">
     <li>text</li>
@@ -33,6 +33,9 @@
 <input id="bold" type="submit" value ="Сделать жирным">
 <input id="red" type="submit" value ="Сделать красным">
 
+<h2>382#1</h2>
+<button id="button6">click me</button>
+<div id="elem6"></div>
 
 <script>
 //377
@@ -60,10 +63,13 @@ button2.addEventListener('click',function(){
 })
 
 
+
+
+
 	</script>
 <style>
-   /* 380-381 */
-   .red {
+    /* 380-381 */
+    .red {
         color: red;
     }
     .bold {
@@ -72,8 +78,16 @@ button2.addEventListener('click',function(){
     .line {
         text-decoration: line-through;
     }
-
-    
+    /* 382 */
+    #elem6 {
+        display: none;
+        width: 200px;
+	    height: 200px;
+	    border: 1px solid green;
+    }
+    #elem6.active {
+	display: block;
+    }
     </style>
     <script src="script.js"></script>
 	</body>

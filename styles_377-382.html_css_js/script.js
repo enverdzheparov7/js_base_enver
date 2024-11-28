@@ -15,3 +15,13 @@ let button5 = document.getElementById('red');
 button5.addEventListener('click',function(){
     text.classList.toggle('red');
 })
+
+//382
+
+
+let button6 = document.querySelector('#button6');
+let elem6 = document.querySelector('#elem6');
+
+button6.addEventListener('click', function() {
+	elem6.classList.toggle('active');
+});
