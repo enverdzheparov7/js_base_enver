@@ -38,7 +38,15 @@
         <input id="input">
         <input id="input1">
         <h2>404#1</h2>
-
+        <textarea id="textarea"></textarea>
+        <div id="div"></div>
+        <h2>404#2</h2>
+        <input id="Input" type="checkbox">
+        <div id="Div"></div>
+        <button id="Button">button</button>
+        <h2>404#3</h2>
+        <input id="Input1" type="checkbox">
+        <button id="Button1">button</button>
 <script>
     //396
     console.log(`
@@ -155,9 +163,41 @@ input1.addEventListener('input', function() {
     }
 });
     console.log(`
-404 Задание:
+404.1 Задание:
     `);
+let textarea = document.querySelector('#textarea');
+let div = document.querySelector('#div');
 
+textarea.addEventListener('blur', function() {
+	div.textContent = textarea.value;
+});
+console.log(`
+404.2 Задание:
+    `);
+let checkbox = document.querySelector('#Input');
+let Button = document.querySelector('#Button');
+let Div = document.querySelector('#Div');
+
+Button.addEventListener('click', function() {
+	if (checkbox.checked) {
+		Div.textContent = '111';
+	} else {
+		Div.textContent = '222';
+	}
+});
+    console.log(`
+404.3 Задание:
+    `);
+let Checkbox1 = document.querySelector('#Input1');
+let Button1 = document.querySelector('#Button1');
+
+Button1.addEventListener('click', function() {
+	if (Checkbox1.checked = true) {
+		console.log('+++');
+	} else {
+		console.log('---');
+	}
+});
 </script>
 
 
