@@ -46,6 +46,8 @@
         <p id="elem_4" class="www ggg zzz">смотри код элемента</p>
         <h2>373#1</h2>
         <p id="elem_5" class="www ggg zzz">смотри код элемента</p>
+        <h2>374#1</h2>
+        <p id="elem_6" class="aaa ccc zzz">смотри код элемента</p>
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -124,6 +126,12 @@ for(let name of classNames){
 let elem_5 = document.querySelector('#elem_5')
 let plus_class = elem_5.classList.add('bbb');
 console.log(elem_5.getAttribute('class'));
+
+//374
+let elem_6 = document.querySelector('#elem_6')
+let minus_class = elem_6.classList.remove('aaa', 'ccc');
+console.log(elem_6.getAttribute('class'));
+
 	</script>
 
 
