@@ -13,7 +13,9 @@
         <div id="elem2">Третий элемент</div>
         <h2>392#1</h2>
         <div id="elem3">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
-        
+        <h2>393#1</h2>
+        <div id="elem4">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
+       
         
 <script>
     //391
@@ -41,7 +43,14 @@
     console.log(`
 393 Задание:
    `);
- 
+   let elem4 = document.querySelector('#elem4');
+   for(let node of elem4.childNodes){
+        console.log(node.nodeName);
+    }
+    console.log(`
+394 Задание:
+   `);
+   
 </script>
 
 
