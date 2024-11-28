@@ -19,6 +19,9 @@
         <p><button id="button4">Убрать отметку</button></p>
         <p><button id="button5">Узнать статус чекбокса</button>, если отмечен "привет", если нет то "пока"</p>
         <p id="abzac"></p>
+        <h2>399#1-2</h2>
+        <input type="checkbox" id="elem3">
+        <p><button id="button6">Изменить состояние чекбокса</button></p>
         
 <script>
     //396
@@ -66,7 +69,15 @@
     abzac.textContent='привет';
    }
    })
-   
+   console.log(`
+399 Задание:
+    `);
+    let elem3 = document.querySelector('#elem3');
+    let button6 = document.querySelector('#button6');
+    button6.addEventListener('click', function(){
+        elem3.checked = !elem3.checked;
+    })
+  
 </script>
 
 
