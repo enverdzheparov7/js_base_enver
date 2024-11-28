@@ -17,6 +17,25 @@
         <input id="elem5" value="text">
         <h2>368#1</h2>
         <input id="elem6" value="text">
+        <h2>369#1</h2>
+        <div id="elem7" data-text="str">text</div>
+        <h2>369#2</h2>
+        <div data-num="1" id="elem8">text</div>
+        <div data-num="2" id="elem8">text</div>
+        <div data-num="3" id="elem8">text</div>
+        <div data-num="4" id="elem8">text</div>
+        <div data-num="5" id="elem8">text</div>
+        <h2>369#3</h2>
+        <button id="Button1">Кликни меня!</button>
+        <p><button id="Button2">Показать количество кликов</button></p>
+        <h2>369#4</h2>
+        <input id="elem" data-n="5">
+        <h2>369#5</h2>
+        <input id="elem" data-min="5" data-max="10">
+        <h2>370#1</h2>
+        <div id="elem_1" data-product-price="1000" data-product-amount="5">
+            товар яблоки
+        </div>
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -46,6 +65,31 @@ let remove_elem5 = elem5.removeAttribute('value');
 let elem6 = document.querySelector('#elem6');
 let has_elem6 = elem6.hasAttribute('value');
 console.log(has_elem6);
+
+//369
+let elem7 = document.querySelector('#elem7');
+elem7.addEventListener('click', function(){
+    elem7.textContent += elem7.dataset.text;
+}
+)
+//2
+let elem8 = document.querySelectorAll('div[data-num]');
+elem8.forEach(elem8 => {
+    elem8.addEventListener('click', function(){
+        elem8.textContent += elem8.dataset.num;}
+)})
+  
+
+
+//370
+let click = document.querySelector('#elem_1');
+let sum = click.addEventListener('click', ()=>{
+    let price = Number(click.dataset.productPrice);
+    let amount = Number(click.dataset.productAmount);
+    let sum = price * amount;
+
+    click.textContent += '(Стоимость: '+ sum + ')';
+})
 	</script>
 
 
