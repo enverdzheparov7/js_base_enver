@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -48,6 +49,8 @@
         <p id="elem_5" class="www ggg zzz">смотри код элемента</p>
         <h2>374#1</h2>
         <p id="elem_6" class="aaa ccc zzz">смотри код элемента</p>
+        <h2>375#1</h2>
+        <p id="elem_7" class="aaa ccc xxx">смотри код элемента</p>
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -63,12 +66,11 @@ console.log(elem2.getAttribute('class'));
 let elem3 = document.querySelector('#elem3');
 let value1 = elem3.setAttribute('value', 'text');
 console.log(elem3.getAttribute('value'));
-  
+
 let elem4 = document.querySelector('#elem4');
 let class1 = elem4.setAttribute('class', 'valid');
 console.log(elem4.getAttribute('class'));
 
-   
 //367
 let elem5 = document.querySelector('#elem5');
 let remove_elem5 = elem5.removeAttribute('value');
@@ -132,8 +134,12 @@ let elem_6 = document.querySelector('#elem_6')
 let minus_class = elem_6.classList.remove('aaa', 'ccc');
 console.log(elem_6.getAttribute('class'));
 
+//375
+let elem_7 = document.querySelector('#elem_7')
+let proverka_class = elem_7.classList.contains('xxx');
+console.log(elem_7.getAttribute('class'));
+console.log(proverka_class);
 	</script>
-
 
 
 	</body>
