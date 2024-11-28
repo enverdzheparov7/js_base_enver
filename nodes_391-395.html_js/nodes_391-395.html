@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -17,7 +18,9 @@
         <div id="elem4">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
         <h2>394#1</h2>
         <div id="elem5">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
-       
+        <h2>395#1</h2>
+        <p>Тип узла: 1 для элементов, 3 для текстовых узлов, 8 для комментариев.</p>
+        <div id="elem6">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
         
 <script>
     //391
@@ -56,7 +59,34 @@
    for(let node of elem5.childNodes){
     if(node.nodeType<8){ console.log(node.nodeType); }    
     }
-   
+    console.log(`
+395.1 Задание:
+   `);
+   let elem6 = document.querySelector('#elem6');
+   for(let node of elem6.childNodes){
+    console.log(node.textContent)    
+    }
+    console.log(`
+395.2 Задание:
+   `);
+   for(let node of elem6.childNodes){
+    if(node.nodeType>1){
+    console.log(node.textContent)}    
+    }
+    console.log(`
+395.3 Задание:
+   `);
+   for(let node of elem6.childNodes){
+    if(node.nodeType<8){
+    console.log(node.textContent)}    
+    }
+    console.log(`
+395.4 Задание:
+   `);
+   for(let node of elem6.childNodes){
+    node.textContent += ' '+ node.nodeType + ' '
+    console.log(node.textContent)  
+    }
 </script>
 
 
