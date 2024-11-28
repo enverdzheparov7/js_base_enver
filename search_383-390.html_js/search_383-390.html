@@ -88,6 +88,16 @@
             <li>4</li>
             <li>5</li>
         </ul>
+        <h2>387#1</h2>
+        <div id="elem_1"></div>
+        <h2>388#1</h2>
+        <ol>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ol>
 <script>
 //383
 let elem1 = document.querySelector('#elem1');
@@ -137,6 +147,16 @@ let three = previous_elem10.textContent;
 let three1 = next_elem10.textContent;
 previous_elem10.textContent = three1;
 next_elem10.textContent = three;
+
+//387
+let getid_elem_1 = document.getElementById('elem_1');
+getid_elem_1.textContent = 'Текст установлен!!!';
+
+//388
+let get_tag_name = document.getElementsByTagName('ol');
+for (let i = 0; i < get_tag_name.length; i++) {
+    get_tag_name[i].style.color = 'red';
+}
 	</script>
 
 
