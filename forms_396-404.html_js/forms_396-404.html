@@ -13,6 +13,12 @@
         <p><button id="button">Заблокировать</button></p>
         <p><button id="button1">Разблокировать</button></p>
         <p><button id="button2">Узнать статус блокировки</button></p>
+        <h2>398#1-2</h2>
+        <input type="checkbox" id="elem2">
+        <p><button id="button3">Отметка</button></p>
+        <p><button id="button4">Убрать отметку</button></p>
+        <p><button id="button5">Узнать статус чекбокса</button>, если отмечен "привет", если нет то "пока"</p>
+        <p id="abzac"></p>
         
 <script>
     //396
@@ -39,7 +45,28 @@
    button2.addEventListener('click', function(){
    console.log(elem1.disabled);
    })
-  
+   console.log(`
+398 Задание:
+    `);
+   let elem2 = document.querySelector('#elem2');
+   let button3 = document.querySelector('#button3');
+   let button4 = document.querySelector('#button4');
+   let button5 = document.querySelector('#button5');
+   let abzac = document.querySelector('#abzac');
+   button3.addEventListener('click', function(){
+   elem2.checked = true;
+   })
+   button4.addEventListener('click', function(){
+   elem2.checked = false;
+   })
+   button5.addEventListener('click', function(){
+   if(elem2.checked == false){
+    abzac.textContent='пока';
+   }else{
+    abzac.textContent='привет';
+   }
+   })
+   
 </script>
 
 
