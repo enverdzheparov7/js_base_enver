@@ -9,7 +9,8 @@
         <input id="elem1" value="text">
         <h2>365#2</h2>
         <input id="elem2" class="www zzz">
-        
+        <h2>366#1</h2>
+        <input id="elem3">
 <script>
     //365
 let elem1 = document.querySelector('#elem1');
@@ -21,6 +22,14 @@ let elem2 = document.querySelector('#elem2');
 
 console.log(elem2.getAttribute('class'));
 
+//366
+let elem3 = document.querySelector('#elem3');
+let value1 = elem3.setAttribute('value', 'text');
+console.log(elem3.getAttribute('value'));
+
+let elem4 = document.querySelector('#elem4');
+let class1 = elem4.setAttribute('class', 'valid');
+console.log(elem4.getAttribute('class'));
 	</script>
 
 
