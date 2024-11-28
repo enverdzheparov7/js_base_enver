@@ -56,7 +56,38 @@
                 </p>
             </div>
         </header>
-      
+        <h2>386#1</h2>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li id="elem7">text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>386#2</h2>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li id="elem8">text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>386#3</h2>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li id="elem9">text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>386#4</h2>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li id="elem10">3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
 <script>
 //383
 let elem1 = document.querySelector('#elem1');
@@ -84,6 +115,28 @@ console.log(closest_elem5_div);
 let elem6 = document.querySelector('#elem6');
 let closest_elem6_class = elem6.closest('.www');
 console.log(closest_elem6_class);
+
+//386
+//1
+let elem7 = document.querySelector('#elem7');
+let previous_elem7 = elem7.previousElementSibling;
+previous_elem7.textContent += '!';
+//2
+let elem8 = document.querySelector('#elem8');
+let next_elem8 = elem8.nextElementSibling;
+next_elem8.textContent += '!';
+//3
+let elem9 = document.querySelector('#elem9');
+let next_elem9 = elem9.nextElementSibling;
+next_elem9.nextElementSibling.textContent += '!';
+//4
+let elem10 = document.querySelector('#elem10');
+let previous_elem10 = elem10.previousElementSibling;
+let next_elem10 = elem10.nextElementSibling;
+let three = previous_elem10.textContent;
+let three1 = next_elem10.textContent;
+previous_elem10.textContent = three1;
+next_elem10.textContent = three;
 	</script>
 
 
