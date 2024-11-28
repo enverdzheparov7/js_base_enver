@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Не первая программа</title>
+	</head>
+	<body>
+        <h2>383#1</h2>
+        <ul id="elem1">
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>383#2</h2>
+        <ul id="elem2">
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>383#3</h2>
+        <ul id="elem3">
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+        <h2>384#1</h2>
+        <div>
+            <ul>
+                <li>text</li>
+                <li>text</li>
+                <li id="elem4">text</li>
+                <li>text</li>
+                <li>text</li>
+            </ul>
+        </div>
+       
+        </div>
+      
+<script>
+//383
+let elem1 = document.querySelector('#elem1');
+let text1 = elem1.firstElementChild.style.color = 'red';
+let elem2 = document.querySelector('#elem2');
+let text2 = elem2.lastElementChild.style.color = 'red';
+let elem3 = document.querySelector('#elem3');
+let child3 = elem3.children;
+
+for(let child of child3){
+    child.textContent+='!';
+}
+
+//384
+let elem4 = document.querySelector('#elem4');
+let id = elem4.parentElement;
+id.style.border = '2px solid red';
+console.log(id);
+
+
+	</script>
+
+
+	</body>
+</html> 
+
+
