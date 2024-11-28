@@ -40,7 +40,22 @@
             </ul>
         </div>
        
-        </div>
+        <h2>385#1</h2>
+        <header>
+            <div>
+                <p>
+                    <span id="elem5"></span>
+                </p>
+            </div>
+        </header>
+        <h2>385#2</h2>
+        <header>
+            <div class="www">
+                <p class="www">
+                    <span id="elem6"></span>
+                </p>
+            </div>
+        </header>
       
 <script>
 //383
@@ -61,7 +76,14 @@ let id = elem4.parentElement;
 id.style.border = '2px solid red';
 console.log(id);
 
-
+//385
+let elem5 = document.querySelector('#elem5');
+let closest_elem5_div = elem5.closest('div');
+console.log(closest_elem5_div);
+//2
+let elem6 = document.querySelector('#elem6');
+let closest_elem6_class = elem6.closest('.www');
+console.log(closest_elem6_class);
 	</script>
 
 
