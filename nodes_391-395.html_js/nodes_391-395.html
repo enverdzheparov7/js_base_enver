@@ -11,7 +11,9 @@
         <div id="elem">Второй элемент</div>
         <!-- комментарий -->
         <div id="elem2">Третий элемент</div>
-       
+        <h2>392#1</h2>
+        <div id="elem3">txt<b>tag</b><!--com-->txt<b>tag</b><!--com--></div>
+        
         
 <script>
     //391
@@ -32,7 +34,14 @@
     console.log(`
 392 Задание:
    `);
-
+    let elem3 = document.querySelector('#elem3');
+    for(let node of elem3.childNodes){
+        console.log(node);
+    }
+    console.log(`
+393 Задание:
+   `);
+ 
 </script>
 
 
