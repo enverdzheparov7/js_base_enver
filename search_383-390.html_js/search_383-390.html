@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -39,9 +40,8 @@
                 <li>text</li>
             </ul>
         </div>
-       
         <h2>385#1</h2>
-        <header>
+        <header id>
             <div>
                 <p>
                     <span id="elem5"></span>
@@ -98,6 +98,20 @@
             <li>text</li>
             <li>text</li>
         </ol>
+        <h2>389#1</h2>
+        <p class="uuu">elem 1</p>
+        <p class="uuu">elem 2</p>
+        <p class="uuu">elem 3</p>
+        <h2>390#1</h2>
+        <div id="parent1">
+            <p class="www">text</p>
+            <p class="www">text</p>
+            <p class="www">text</p>
+            <p class="ggg">text</p>
+            <p class="ggg">text</p>
+            <p class="ggg">text</p>
+        </div>
+      
 <script>
 //383
 let elem1 = document.querySelector('#elem1');
@@ -157,6 +171,30 @@ let get_tag_name = document.getElementsByTagName('ol');
 for (let i = 0; i < get_tag_name.length; i++) {
     get_tag_name[i].style.color = 'red';
 }
+
+//389
+
+let get_classname = document.getElementsByClassName('uuu');
+for(let i = 0; i < get_classname.length; i++){
+    get_classname[i].style.color='blue';
+}
+
+
+//390
+
+let parent1 = document.querySelector('#parent1');
+let elems1 = parent1.querySelectorAll('.www');
+let elems2 = parent1.querySelectorAll('.ggg');
+console.log(elems1);
+console.log(elems2);
+for(let i = 0; i < elems1.length; i++){
+    elems1[i].textContent += ' [class www]';
+}
+for(let i = 0; i < elems2.length; i++){
+    elems2[i].textContent +=' [class ggg]';
+}
+
+
 	</script>
 
 
